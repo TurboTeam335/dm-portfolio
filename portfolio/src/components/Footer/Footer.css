@@ -1,0 +1,14 @@
+footer {
+  padding: 20px;
+  background-color: var(--appleWhite);
+  text-align: center;
+}
+
+footer div a {
+  margin: 0 10px;
+}
+
+footer div a img {
+  height: 50px;
+  width: 50px;
+}

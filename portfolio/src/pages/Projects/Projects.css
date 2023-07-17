@@ -1,0 +1,33 @@
+.card {
+  background-color: var(--appleWhite);
+}
+
+.card-img-top {
+  width: 100%;
+  height: auto;
+}
+
+.card-title {
+  color: var(--purple);
+}
+
+.card-text {
+  color: var(--appleBlack);
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.btn-custom {
+  color: var(--appleWhite);
+  background-color: var(--purple);
+  font-weight: bold;
+}
+
+.btn-custom:hover {
+  color: var(--purple);
+  background-color: var(--appleWhite);
+}

@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Gudea:ital@1&family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+
+:root {
+  --purple: #55198b;
+  --appleWhite: #f5f5f7;
+  --appleBlack: #1d1d1f;
+  --orange: #d2742d;
+  --grey: #a1a1a1;
+}
+
+* {
+  background: var(--appleWhite);
+  font-family: "Gudea", sans-serif;
+  font-family: "Montserrat", sans-serif;
+}
+
+h2 {
+  text-align: left;
+  padding-bottom: 10px;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Gudea', 'Montserrat', 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+

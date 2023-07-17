@@ -1,0 +1,19 @@
+#contact-btn {
+  color: var(--appleWhite);
+  background-color: var(--purple);
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+#contact-btn:hover {
+  color: var(--purple);
+  background-color: var(--appleWhite);
+}
+
+.form-control.is-invalid {
+  border-color: var(--orange);
+}
+
+.form-control.is-invalid ~ .invalid-feedback {
+  color: var(--orange);
+}
