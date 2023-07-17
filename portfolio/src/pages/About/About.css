@@ -19,8 +19,8 @@
 }
 
 .navbar-headshot {
-  width: 275px;  
-  height: 275px; 
+  width: 275px;
+  height: 275px;
   margin-right: 10px;
 }
 
@@ -53,4 +53,19 @@
 
 .shadow-custom {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+@media (max-width: 767px) {
+  .navbar-headshot {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media (max-width: 767px) {
+  .navbar-headshot {
+    width: 150px;
+    height: 150px;
+    margin-left: 25px;
+  }
 }

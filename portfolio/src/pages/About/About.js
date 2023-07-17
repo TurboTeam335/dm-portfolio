@@ -29,7 +29,7 @@ function About() {
 
       <a
         className="btn btn-custom shadow-custom mx-4"
-        href="https://raw.githubusercontent.com/TurboTeam335/react-portfolio/main/Daniel%20Mascali%202023%20JrDev%20Resume.pdf"
+        href="https://raw.githubusercontent.com/TurboTeam335/dm-portfolio/main/Daniel%20Mascali%202023%20JrDev%20Resume.pdf"
         download
         target="_blank"
         rel="noopener noreferrer"
