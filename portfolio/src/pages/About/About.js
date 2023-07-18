@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col, Image } from "react-bootstrap";
 import "./About.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import headshot from "../../assets/img/headshot.png";
+import headshot from "./img/headshot.png";
 
 function About() {
   return (

@@ -1,8 +1,8 @@
 import React from 'react';
 import { Card, Button, Container, Row, Col } from 'react-bootstrap';
-import smirk from "../../assets/img/smirk.png"
-import bookends from "../../assets/img/bookends.png"
-import weather from "../../assets/img/weather.png"
+import smirk from "./img/smirk.png"
+import bookends from "./img/bookends.png"
+import weather from "./img/weather.png"
 import './Projects.css'
 
 function Projects() {

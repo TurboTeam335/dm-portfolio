@@ -3,13 +3,13 @@ import { Container, Row, Col, Image } from "react-bootstrap";
 import EducationCard, {
   schoolInfo,
 } from "../../components/EducationCard/EducationCard";
-import htmlLogo from "../../assets/img/html.png";
-import cssLogo from "../../assets/img/css.png";
-import jsLogo from "../../assets/img/js.png";
-import reactLogo from "../../assets/img/react.png";
-import nodeLogo from "../../assets/img/node.png";
-import mysqlLogo from "../../assets/img/mysql.png";
-import mongodbLogo from "../../assets/img/mongodb.png";
+import htmlLogo from "./img/html.png";
+import cssLogo from "./img/css.png";
+import jsLogo from "./img/js.png";
+import reactLogo from "./img/react.png";
+import nodeLogo from "./img/node.png";
+import mysqlLogo from "./img/mysql.png";
+import mongodbLogo from "./img/mongodb.png";
 import "./Skills.css";
 
 const skills = [

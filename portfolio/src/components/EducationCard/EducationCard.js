@@ -1,8 +1,9 @@
 import React, { createRef } from "react";
 import { Card, Image } from "react-bootstrap";
-import vanderbiltLogo from "../../assets/img/vanderbilt.webp"
-import googleCloudLogo from "../../assets/img/googleAssistantLogo.webp";
-import uncgLogo from "../../assets/img/uncg.png";
+import vanderbiltLogo from "./img/vanderbilt.webp"
+import googleCloudLogo from "./img/googleAssistantLogo.webp";
+import uncgLogo from "./img/uncg.png";
+import './EducationCard.css'
 
 export const schoolInfo = [
   {
@@ -48,7 +49,7 @@ export default function EducationCard({ school }) {
           </div>
         )}
         <div className="education-card-right">
-          <Card.Title>{school.schoolName}</Card.Title>
+          <Card.Title className="school-name">{school.schoolName}</Card.Title>
           <div className="education-info">
             <p className="subheader">{school.subHeader}</p>
             <p className="duration">{school.duration}</p>

@@ -1,9 +1,9 @@
 import React from 'react';
 import './Footer.css';
-import github from '../../assets/img/github.png'
-import instagram from '../../assets/img/instagram.png'
-import linkedin from '../../assets/img/linkedin.png'
-import spotify from '../../assets/img/spotify.png'
+import github from './img/github.png'
+import instagram from './img/instagram.png'
+import linkedin from './img/linkedin.png'
+import spotify from './img/spotify.png'
 
 function Footer() {
   return (
