@@ -7,6 +7,7 @@ import ThemeContext from './components/ThemeContext/ThemeContext';
 function App() {
   const [isDark, setIsDark] = useState(false);
 
+
   useEffect(() => {
     const savedTheme = localStorage.getItem('isDark') === 'true';
     setIsDark(savedTheme);

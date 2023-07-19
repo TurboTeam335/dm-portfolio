@@ -19,6 +19,7 @@ This is a personal portfolio website developed using React.js. The portfolio sho
 Contact Form: Enables visitors to reach out to me with ease, providing fields for 
 - Resume: Offers a direct download link, allowing visitors to get a detailed view of my qualifications and professional journey.
 - Toggle Button: An interactive feature allowing users to switch between light and dark mode, enhancing the user experience by allowing visitors to choose the mode that suits their preference.
+- Interactive Footer: Features transparent PNG images serving as direct links to my GitHub, LinkedIn, and Instagram profiles, as well as my email address. This allows for a more personalized way to connect with me and follow my professional journey and life updates.
 
 
 ## Technologies Used

@@ -30,6 +30,7 @@
 }
 
 body {
+  min-height: 100vh;
   margin: 0;
   padding: 0;
   height: 100%;
@@ -45,7 +46,6 @@ body {
 
 body.dark {
   --shadow: var(--shadow-dark);
-  /* other styles... */
 }
 
 h2 {

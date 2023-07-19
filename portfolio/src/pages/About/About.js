@@ -9,7 +9,9 @@ function About() {
     <Container id="about" className="py-4 about">
       <Row>
         <Col sm={8}>
-          <h1 className="mb-3 mx-4 about-title">Hello, I'm Daniel 👋</h1>
+          <h1 className="mb-3 mx-4 about-title">
+            Hello, I'm Daniel <span className="wave">👋</span>
+          </h1>
           <h3 className="mb-3 mx-4">Welcome to my ePortfolio</h3>
         </Col>
         <Col sm={4} className="order-1 order-md-2">

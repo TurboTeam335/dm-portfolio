@@ -4,6 +4,18 @@
 }
 .about-title {
   color: var(--font-color);
+  animation: none ;
+}
+
+.wave {
+  display: inline-block;
+  animation: wave-stop 0s;
+  animation-fill-mode: forwards;
+}
+
+.wave:hover {
+  animation: wave 2.5s;
+  animation-fill-mode: forwards;
 }
 
 #about h2 {
@@ -53,6 +65,49 @@
 
 .shadow-custom {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+
+@keyframes wave {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(14deg);
+  }
+  20% {
+    transform: rotate(-8deg);
+  }
+  30% {
+    transform: rotate(14deg);
+  }
+  40% {
+    transform: rotate(-4deg);
+  }
+  50% {
+    transform: rotate(14deg);
+  }
+  60% {
+    transform: rotate(-8deg);
+  }
+  70% {
+    transform: rotate(14deg);
+  }
+  80% {
+    transform: rotate(-4deg);
+  }
+  90% {
+    transform: rotate(14deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes wave-stop {
+  0%, 100% {
+    transform: rotate(0deg);
+  }
 }
 
 @media (max-width: 767px) {
