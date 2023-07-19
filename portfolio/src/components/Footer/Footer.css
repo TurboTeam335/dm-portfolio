@@ -3,6 +3,7 @@ footer {
   margin-bottom: 0;
   background-color: var(--background);
   text-align: center;
+  
 }
 
 footer div a {
@@ -13,3 +14,9 @@ footer div a img {
   height: 50px;
   width: 50px;
 }
+
+/* .logo{
+  position: absolute;
+  left:50%;
+  bottom: 0; 
+} */

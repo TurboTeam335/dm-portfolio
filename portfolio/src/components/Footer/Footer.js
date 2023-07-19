@@ -14,7 +14,7 @@ function Footer() {
   const { isDark } = useContext(ThemeContext);
   return (
     <footer>
-      <div>
+      <div className='logo'>
       <a href="https://github.com/TurboTeam335" target="_blank" rel="noreferrer">
           <img src={isDark ? githublight : github} alt="GitHub" />
         </a>
