@@ -55,6 +55,7 @@ body {
 footer {
   margin-top: auto;
 }
+
 body.dark {
   --shadow: var(--shadow-dark);
 }

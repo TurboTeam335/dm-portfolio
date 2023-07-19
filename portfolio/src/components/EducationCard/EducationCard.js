@@ -17,6 +17,7 @@ export const schoolInfo = [
     logo: googleCloudLogo,
     subHeader: "",
     duration: "2023",
+    url: "https://www.cloudskillsboost.google/public_profiles/9215599e-7388-43e6-8cf2-346d775e53c6"
   },
   {
     schoolName: "University of North Carolina at Greensboro",
@@ -35,8 +36,15 @@ export default function EducationCard({ school }) {
     );
   }
 
+  const navigateToUrl = () => {
+    if (school.url) {
+      window.open(school.url, '_blank');
+    }
+  }
+
+
   return (
-    <Card className="shadow-custom" style={{ marginBottom: "1em" }}>
+    <Card className="shadow-custom" style={{ marginBottom: "1em" }} onClick={navigateToUrl}>
       <Card.Body>
         {school.logo && (
           <div className="education-card-left">

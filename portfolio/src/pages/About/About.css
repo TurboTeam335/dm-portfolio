@@ -1,9 +1,9 @@
 #about {
   padding: 50px 0 0 0;
   background-color: var(--background);
-  margin: 5%;
-  padding: 5%;
-  /* min-height: 90vh */
+  /* margin: 5%;
+  padding: 5%; */
+  min-height: 80vh;
 }
 .about-title {
   color: var(--font-color);
