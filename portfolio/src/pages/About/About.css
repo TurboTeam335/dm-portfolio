@@ -1,21 +1,21 @@
 #about {
-  padding: 50px 0;
-  background-color: var(--appleWhite);
+  padding: 50px 0 0 0;
+  background-color: var(--background);
 }
 .about-title {
-  color: var(--appleBlack);
+  color: var(--font-color);
 }
 
 #about h2 {
   font-size: 2em;
   margin-bottom: 10px;
-  color: var(--appleBlack);
+  color: var(--font-color);
 }
 
 #about p {
   font-size: 1.2em;
   line-height: 1.6;
-  color: var(--appleBlack);
+  color: var(--font-color);
 }
 
 .navbar-headshot {
@@ -26,11 +26,11 @@
 
 .btn.btn-custom {
   background-color: var(--purple);
-  color: white;
+  color: var(--appleWhite);
 }
 
 .btn.btn-custom:hover {
-  background-color: white;
+  background-color: var(--appleWhite);
   color: var(--purple);
   border-color: var(--purple);
 }
@@ -38,14 +38,14 @@
 .btn.btn-custom:focus,
 .btn.btn-custom:active {
   background-color: var(--purple);
-  color: white;
+  color: var(--appleWhite);
   border-color: var(--purple);
   box-shadow: none;
 }
 
 .btn.btn-custom:active:focus,
 .btn.btn-custom:focus:hover {
-  background-color: white;
+  background-color: var(--appleWhite);
   color: var(--purple);
   border-color: var(--purple);
   box-shadow: none;
@@ -54,7 +54,6 @@
 .shadow-custom {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
 }
-
 
 @media (max-width: 767px) {
   .navbar-headshot {

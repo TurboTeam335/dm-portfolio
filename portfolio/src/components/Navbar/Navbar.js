@@ -1,10 +1,13 @@
-import React from "react";
+import React, { useContext } from "react";  // add useContext here
 import { Navbar, Nav } from "react-bootstrap";
 import "./Navbar.css";
+import ToggleSwitch from "../ToggleSwitch/ToggleSwitch";
+import ThemeContext from "../ThemeContext/ThemeContext";
 
 function NavBar({ currentPage, handlePageChange }) {
+  const { isDark } = useContext(ThemeContext);
   return (
-    <Navbar className="navbar" variant="dark" expand="lg" sticky="top">
+    <Navbar className={isDark ? "navbar dark" : "navbar"} variant="dark" expand="lg" sticky="top">
       <Navbar.Brand>
         <div className="d-flex align-items-center">
           <div>
@@ -41,7 +44,7 @@ function NavBar({ currentPage, handlePageChange }) {
               Skills
             </Nav.Link>
           </li>
-          <li>
+          {/* <li>
             <Nav.Link
               href="#contact"
               onClick={() => handlePageChange("Contact")}
@@ -49,6 +52,9 @@ function NavBar({ currentPage, handlePageChange }) {
             >
               Contact
             </Nav.Link>
+          </li> */}
+          <li>
+            <ToggleSwitch />
           </li>
         </ul>
       </Navbar.Collapse>

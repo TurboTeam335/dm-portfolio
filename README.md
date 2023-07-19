@@ -14,10 +14,12 @@ This is a personal portfolio website developed using React.js. The portfolio sho
 
 ## Features
 
-- About Me section introducing myself to visitors
-- Portfolio section to showcase my projects and provide links to the deployed applications and GitHub repositories
-- Contact form for visitors to easily get in touch with me
-- Direct download link for my resume
+- About Me Section: A personal introduction to visitors giving them insight into my journey, skills, and interests.
+- Portfolio Section: Showcases my development projects with images, descriptions, and direct links to the deployed applications and GitHub repositories.
+Contact Form: Enables visitors to reach out to me with ease, providing fields for 
+- Resume: Offers a direct download link, allowing visitors to get a detailed view of my qualifications and professional journey.
+- Toggle Button: An interactive feature allowing users to switch between light and dark mode, enhancing the user experience by allowing visitors to choose the mode that suits their preference.
+
 
 ## Technologies Used
 - React.js

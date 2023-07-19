@@ -7,26 +7,50 @@
   --appleBlack: #1d1d1f;
   --orange: #d2742d;
   --grey: #a1a1a1;
+  --shadow-light: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);  /* shadow for light theme */
+  --shadow-dark: 0 0.5rem 1rem rgba(255, 255, 255, 0.15);
 }
 
+.light {
+  --background: var(--appleWhite);
+  --font-color: var(--appleBlack);
+}
+
+.dark {
+  --background: var(--appleBlack);
+  --font-color: var(--appleWhite);
+}
+
+
 * {
-  background: var(--appleWhite);
+  background: var(--background);
+  color: var(--font-color); 
   font-family: "Gudea", sans-serif;
   font-family: "Montserrat", sans-serif;
 }
 
-h2 {
-  text-align: left;
-  padding-bottom: 10px;
-}
-
 body {
   margin: 0;
+  padding: 0;
+  height: 100%;
   font-family: -apple-system, BlinkMacSystemFont, 'Gudea', 'Montserrat', 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: var(--background);
+  color: var(--font-color);
+  --shadow: var(--shadow-light);
+}
+
+body.dark {
+  --shadow: var(--shadow-dark);
+  /* other styles... */
+}
+
+h2 {
+  text-align: left;
+  padding-bottom: 10px;
 }
 
 code {

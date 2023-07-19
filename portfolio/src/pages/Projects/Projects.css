@@ -1,5 +1,5 @@
 .card {
-  background-color: var(--appleWhite);
+  background-color: var(--background);
 }
 
 .card-img-top {
@@ -12,7 +12,7 @@
 }
 
 .card-text {
-  color: var(--appleBlack);
+  color: var(--font-color);
 }
 
 .card-body {
@@ -30,4 +30,8 @@
 .btn-custom:hover {
   color: var(--purple);
   background-color: var(--appleWhite);
+}
+
+.shadow-custom {
+  box-shadow: var(--shadow) !important;
 }

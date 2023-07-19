@@ -1,0 +1,53 @@
+.toggle-switch {
+  position: relative;
+  width: 60px;
+}
+
+.toggle-switch label {
+  position: absolute;
+  width: 100%;
+  height: 34px;
+  background-color: #28292c;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.toggle-switch input {
+  position: absolute;
+  display: none;
+}
+
+.toggle-switch .slider {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50px;
+  transition: 0.3s;
+  background-color: var(--purple);
+}
+
+.toggle-switch input:checked ~ .slider {
+  background-color: var(--purple);
+}
+
+.toggle-switch .slider::before {
+  content: "☀️";
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background-color: var(--appleBlack);
+  transition: 0.3s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+}
+
+.toggle-switch input:checked ~ .slider::before {
+  transform: translateX(26px);
+  content: "🌙";
+  background-color: #28292c;
+}

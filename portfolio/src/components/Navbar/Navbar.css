@@ -6,8 +6,8 @@
 }
 
 .navbar {
-  background-color: var(--appleWhite);
-  color: var(--appleBlack)
+  background-color: var(--background);
+  color: var(--font-color);
 }
 
 .brand-name {
@@ -24,6 +24,7 @@
 
 .nav-list li a {
   color: var(--purple);
+  font-weight: bolder;
   position: relative;
   transition: color 0.3s ease;
 }

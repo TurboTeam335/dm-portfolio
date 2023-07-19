@@ -9,9 +9,9 @@ export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState("Home");
 
   const renderPage = () => {
-    if (currentPage === "Contact") {
-      return <Contact />;
-    }
+    // if (currentPage === "Contact") {
+    //   return <Contact />;
+    // }
     if (currentPage === "Projects") {
       return <Projects />;
     }
