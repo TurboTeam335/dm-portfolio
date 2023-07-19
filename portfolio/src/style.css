@@ -7,35 +7,42 @@
   --appleBlack: #1d1d1f;
   --orange: #d2742d;
   --grey: #a1a1a1;
-  --shadow-light: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);  /* shadow for light theme */
+  --shadow-light: 0 0.5rem 1rem rgba(0, 0, 0, 0.15); /* shadow for light theme */
   --shadow-dark: 0 0.5rem 1rem rgba(255, 255, 255, 0.15);
 }
 
 .light {
   --background: var(--appleWhite);
   --font-color: var(--appleBlack);
-  --shadow: var(--shadow-light)
+  --shadow: var(--shadow-light);
 }
 
 .dark {
   --background: var(--appleBlack);
   --font-color: var(--appleWhite);
-  --shadow: var(--shadow-dark)
+  --shadow: var(--shadow-dark);
 }
-
 
 * {
   background: var(--background);
-  color: var(--font-color); 
+  color: var(--font-color);
   font-family: "Gudea", sans-serif;
   font-family: "Montserrat", sans-serif;
 }
 
-body { 
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
 
-  font-family: -apple-system, BlinkMacSystemFont, 'Gudea', 'Montserrat', 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: -apple-system, BlinkMacSystemFont, "Gudea", "Montserrat",
+    "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: var(--background);
@@ -43,6 +50,9 @@ body {
   --shadow: var(--shadow-light);
 }
 
+footer {
+  margin-top: auto;
+}
 body.dark {
   --shadow: var(--shadow-dark);
 }
@@ -53,8 +63,6 @@ h2 {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-
-
