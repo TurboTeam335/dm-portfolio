@@ -30,6 +30,23 @@
 .btn-custom:hover {
   color: var(--purple);
   background-color: var(--appleWhite);
+  border-color: var(--purple);
+}
+
+.btn.btn-custom:focus,
+.btn.btn-custom:active {
+  background-color: var(--purple);
+  color: var(--appleWhite);
+  border-color: var(--purple);
+  box-shadow: none;
+}
+
+.btn.btn-custom:active:focus,
+.btn.btn-custom:focus:hover {
+  background-color: var(--appleWhite);
+  color: var(--purple);
+  border-color: var(--purple);
+  box-shadow: none;
 }
 
 .shadow-custom {
