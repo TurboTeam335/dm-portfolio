@@ -3,7 +3,7 @@
 ## Description
 This is a personal portfolio website developed using React.js. The portfolio showcases my latest work, provides an overview about myself, and offers a convenient way for visitors to contact me. The portfolio is fully responsive and optimized for a variety of screen sizes.
 
-![Portfolio Preview](./portfolio/src/assets/img/portfolio-img2.png)  
+![Portfolio Preview](./portfolio/src/assets/img/portfolio-img3.png)  
 
 ## Table of Contents
 - [Features](#features)
@@ -15,7 +15,7 @@ This is a personal portfolio website developed using React.js. The portfolio sho
 ## Features
 
 - About Me Section: A personal introduction to visitors giving them insight into my journey, skills, and interests.
-- Portfolio Section: Showcases my development projects with images, descriptions, and direct links to the deployed applications and GitHub repositories.
+- Portfolio Section: Showcases my development projects with images, descriptions, and direct links to the GitHub repositories.
 Contact Form: Enables visitors to reach out to me with ease, providing fields for 
 - Resume: Offers a direct download link, allowing visitors to get a detailed view of my qualifications and professional journey.
 - Toggle Button: An interactive feature allowing users to switch between light and dark mode, enhancing the user experience by allowing visitors to choose the mode that suits their preference.
