@@ -2,7 +2,7 @@ import React from 'react';
 import { Card, Button, Container, Row, Col } from 'react-bootstrap';
 import smirk from "./img/smirk.png"
 import bookends from "./img/bookends.png"
-import weather from "./img/weather.png"
+import portfolio from '../../assets/img/portfolio-img3.png'
 import './Projects.css'
 
 function Projects() {
@@ -21,13 +21,13 @@ function Projects() {
       link: "https://github.com/SidneyEdwards/GreenPage",
       // deployedLink: "https://frozen-castle-12259.herokuapp.com/"
     },
-    // {
-    //   title: "Weather Dashboard",
-    //   image: weather,
-    //   description: "A simple and user-friendly weather dashboard that provides current weather conditions, as well as a 5-day forecast for any city you search.",
-    //   link: "https://github.com/TurboTeam335/Weather-Dashboard",
-    //   deployedLink: "https://turboteam335.github.io/Weather-Dashboard/"
-    // },
+    {
+      title: "Portfolio",
+      image: portfolio,
+      description: "This Portfolio is a showcase of my latest accomplishments and endeavors. It epitomizes my dedication to creating polished web experiences, incorporating the latest web technologies and design principles. Feel free to explore the repository for this site to gain insights into my coding practices and design sensibilities.",
+      link: "https://github.com/TurboTeam335/dm-portfolio",
+      // deployedLink: "https://turboteam335.github.io/Weather-Dashboard/"
+    },
 
   ]
 
