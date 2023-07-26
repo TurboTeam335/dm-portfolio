@@ -18,7 +18,7 @@ function Projects() {
       title: "BookEnds",
       image: bookends,
       description: "BookEnds is a community-driven platform that connects book lovers and fosters a culture of sharing within neighborhoods. The platform allows users to search for available books in book-share boxes across their neighborhood. It demonstrates my skills in creating full-stack applications, focusing on user experience, and promoting community interaction.",
-      link: "https://github.com/SidneyEdwards/GreenPage",
+      link: "https://github.com/TurboTeam335/BookEnd",
       // deployedLink: "https://frozen-castle-12259.herokuapp.com/"
     },
     {
