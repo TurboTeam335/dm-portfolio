@@ -3,10 +3,18 @@ import { Card, Button, Container, Row, Col } from 'react-bootstrap';
 import smirk from "./img/smirk.png"
 import bookends from "./img/bookends.png"
 import portfolio from '../../assets/img/portfolio-img3.png'
+import appointme from './img/appointme.png'
 import './Projects.css'
 
 function Projects() {
   const projectData = [
+    {
+      title: "appointme.",
+      image: appointme,
+      description: "appointme. offers a comprehensive and efficient solution for vendors by providing them with a user-friendly dashboard. This dashboard allows vendors to easily schedule clients, manage a comprehensive client database, and create detailed profiles showcasing the range of services offered along with associated costs to potential clients. With appointme., vendors can streamline their operations and enhance their ability to attract and serve clients effectively.",
+      link: "https://github.com/EFP18/AppointMe",
+      // deployedLink: "https://turboteam335.github.io/smirk/"
+    },
     {
       title: "SMIRK: Stock Market Insights & Ridiculous Knowledge",
       image: smirk,
