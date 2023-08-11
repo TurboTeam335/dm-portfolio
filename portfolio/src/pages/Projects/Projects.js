@@ -13,7 +13,7 @@ function Projects() {
       image: appointme,
       description: "appointme. offers a comprehensive and efficient solution for vendors by providing them with a user-friendly dashboard. This dashboard allows vendors to easily schedule clients, manage a comprehensive client database, and create detailed profiles showcasing the range of services offered along with associated costs to potential clients. With appointme., vendors can streamline their operations and enhance their ability to attract and serve clients effectively.",
       // link: "https://github.com/EFP18/AppointMe",
-      deployedLink: "https://aqueous-fortress-81692-b2b05a92fd74.herokuapp.com/"
+      deployedLink: "https://appointme-deploy-73ae09842608.herokuapp.com/"
     },
     {
       title: "SMIRK: Stock Market Insights & Ridiculous Knowledge",
