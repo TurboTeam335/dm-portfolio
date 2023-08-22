@@ -21,6 +21,11 @@
   justify-content: space-between;
 }
 
+.btn:focus, .btn.focus {
+  outline: 0 !important;
+  box-shadow: none !important;
+}
+
 .btn-custom {
   color: var(--appleWhite);
   background-color: var(--purple);

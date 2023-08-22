@@ -44,7 +44,9 @@ export default function EducationCard({ school }) {
 
 
   return (
-    <Card className="shadow-custom" style={{ marginBottom: "1em" }} onClick={navigateToUrl}>
+    <Card className="shadow-custom" style={{ marginBottom: "1em" }} 
+    // onClick={navigateToUrl}
+    >
       <Card.Body>
         {school.logo && (
           <div className="education-card-left">

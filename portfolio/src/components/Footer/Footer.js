@@ -27,7 +27,7 @@ function Footer() {
         {/* <a href="https://open.spotify.com/playlist/37i9dQZF1EQnJyHBkXpASl?si=5177a31f265f41c3" target="_blank" rel="noreferrer">
           <img src={spotify} alt="Spotify" />
         </a> */}
-        <a href="mailto:danielmascalimusic@gmail.com">
+        <a href="mailto:daniel.mascali87@gmail.com">
           <img src={email} alt="Email" />
         </a>
       </div>

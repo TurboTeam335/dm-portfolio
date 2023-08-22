@@ -54,6 +54,11 @@
   color: var(--orange);
 }
 
+.active-link {
+  color: var(--orange) !important;
+}
+
+
 @media (max-width: 767px) {
   .navbar-collapse {
     width: 100%;

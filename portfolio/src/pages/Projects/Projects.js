@@ -1,20 +1,28 @@
 import React from 'react';
 import { Card, Button, Container, Row, Col } from 'react-bootstrap';
-import smirk from "./img/smirk.png"
+import smirk from "./img/smirk2.png"
 import bookends from "./img/bookends.png"
 import portfolio from '../../assets/img/portfolio-img3.png'
 import appointme from './img/appointme.png'
+import weatherHub from './img/weatherHub.png'
 import './Projects.css'
 
 function Projects() {
   const projectData = [
     {
-      title: "appointme.",
-      image: appointme,
-      description: "appointme. offers a comprehensive and efficient solution for vendors by providing them with a user-friendly dashboard. This dashboard allows vendors to easily schedule clients, manage a comprehensive client database, and create detailed profiles showcasing the range of services offered along with associated costs to potential clients. With appointme., vendors can streamline their operations and enhance their ability to attract and serve clients effectively.",
-      // link: "https://github.com/EFP18/AppointMe",
-      deployedLink: "https://appointme-deploy-73ae09842608.herokuapp.com/"
+      title: "WeatherHub.",
+      image: weatherHub,
+      description: "WeatherHub is a user-friendly weather forecasting application designed to provide users with real-time climatic insights. Utilizing the Open Weather API, it offers detailed weather conditions and forecasts, aiding in informed planning and preparation. This project showcases my ability to integrate third-party APIs and develop intuitive interfaces, handling a diverse range of meteorological data.",
+      // link: "https://github.com/TurboTeam335/weather-react",
+      deployedLink: "https://turboteam335.github.io/weather-react/"
     },
+    // {
+    //   title: "appointme.",
+    //   image: appointme,
+    //   description: "appointme. offers a comprehensive and efficient solution for vendors by providing them with a user-friendly dashboard. This dashboard allows vendors to easily schedule clients, manage a comprehensive client database, and create detailed profiles showcasing the range of services offered along with associated costs to potential clients. With appointme., vendors can streamline their operations and enhance their ability to attract and serve clients effectively.",
+    //   // link: "https://github.com/EFP18/AppointMe",
+    //   deployedLink: "https://appointme-deploy-73ae09842608.herokuapp.com/"
+    // },
     {
       title: "SMIRK: Stock Market Insights & Ridiculous Knowledge",
       image: smirk,
@@ -22,13 +30,13 @@ function Projects() {
       // link: "https://github.com/TurboTeam335/smirk",
       deployedLink: "https://turboteam335.github.io/smirk/"
     },
-    {
-      title: "BookEnds",
-      image: bookends,
-      description: "BookEnds is a community-driven platform that connects book lovers and fosters a culture of sharing within neighborhoods. The platform allows users to search for available books in book-share boxes across their neighborhood. It demonstrates my skills in creating full-stack applications, focusing on user experience, and promoting community interaction.",
-      // link: "https://github.com/TurboTeam335/BookEnd",
-      deployedLink: "https://frozen-castle-12259.herokuapp.com/"
-    },
+    // {
+    //   title: "BookEnds",
+    //   image: bookends,
+    //   description: "BookEnds is a community-driven platform that connects book lovers and fosters a culture of sharing within neighborhoods. The platform allows users to search for available books in book-share boxes across their neighborhood. It demonstrates my skills in creating full-stack applications, focusing on user experience, and promoting community interaction.",
+    //   // link: "https://github.com/TurboTeam335/BookEnd",
+    //   deployedLink: "https://frozen-castle-12259.herokuapp.com/"
+    // },
     // {
     //   title: "Portfolio",
     //   image: portfolio,
@@ -56,7 +64,7 @@ function Projects() {
                 </Card.Text>
                 <div className="mt-auto d-flex justify-content-center">
                   {/* <Button className="btn-custom shadow-custom mx-1" variant="primary" href={project.link} target="_blank">Visit Repository</Button> */}
-                  <Button className="btn-custom shadow-custom mx-1" variant="primary" href={project.deployedLink} target="_blank">Visit Site</Button>
+                  <Button className="btn-custom shadow-custom mx-1" variant="custom" href={project.deployedLink} target="_blank">Visit Site</Button>
                 </div>
               </Card.Body>
             </Card>
