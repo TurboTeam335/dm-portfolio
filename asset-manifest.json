@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/dm-portfolio/static/css/main.52d96081.css",
-    "main.js": "/dm-portfolio/static/js/main.01f66edb.js",
+    "main.css": "/dm-portfolio/static/css/main.eb3e9ec4.css",
+    "main.js": "/dm-portfolio/static/js/main.ac079293.js",
     "static/js/787.a2cb61a6.chunk.js": "/dm-portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/bookends.png": "/dm-portfolio/static/media/bookends.5ee20f42515b2e9bdbf8.png",
     "static/media/smirk2.png": "/dm-portfolio/static/media/smirk2.1d10170fcd0231adb120.png",
@@ -10,17 +10,18 @@
     "static/media/weatherHub.png": "/dm-portfolio/static/media/weatherHub.abf3efb9fe7b3269ca0f.png",
     "static/media/php.png": "/dm-portfolio/static/media/php.aa680f57bf75b5d5acdc.png",
     "static/media/uncg.png": "/dm-portfolio/static/media/uncg.17948dfa502d36369f3c.png",
+    "static/media/quote.png": "/dm-portfolio/static/media/quote.5ef4e57797387b92c2a7.png",
     "static/media/appointme.png": "/dm-portfolio/static/media/appointme.26e1f5e8f1c34909393d.png",
     "static/media/googleAssistantLogo.webp": "/dm-portfolio/static/media/googleAssistantLogo.f720c71652579588524a.webp",
     "static/media/coursera.png": "/dm-portfolio/static/media/coursera.a1351c28bb0fc4ca62ad.png",
     "static/media/vanderbilt.webp": "/dm-portfolio/static/media/vanderbilt.f046a9fa0f7815acefa8.webp",
     "index.html": "/dm-portfolio/index.html",
-    "main.52d96081.css.map": "/dm-portfolio/static/css/main.52d96081.css.map",
-    "main.01f66edb.js.map": "/dm-portfolio/static/js/main.01f66edb.js.map",
+    "main.eb3e9ec4.css.map": "/dm-portfolio/static/css/main.eb3e9ec4.css.map",
+    "main.ac079293.js.map": "/dm-portfolio/static/js/main.ac079293.js.map",
     "787.a2cb61a6.chunk.js.map": "/dm-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.52d96081.css",
-    "static/js/main.01f66edb.js"
+    "static/css/main.eb3e9ec4.css",
+    "static/js/main.ac079293.js"
   ]
 }
