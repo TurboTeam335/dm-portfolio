@@ -10,15 +10,17 @@ import mongodbLogo from './img/mongodb.png';
 import gpt from './img/gpt.png';
 import php from './img/php.png';
 import wordpress from './img/wordpress2.png';
+import python from './img/python.png';
 import './Skills.css';
 
 const skills = [
   { name: 'HTML', logo: htmlLogo, level: 90 },
   { name: 'CSS', logo: cssLogo, level: 90 },
-  { name: 'JavaScript', logo: jsLogo, level: 75 },
-  { name: 'React', logo: reactLogo, level: 80 },
-  { name: 'WordPress', logo: wordpress, level: 70 },
-  { name: 'PHP', logo: php, level: 70 },
+  { name: 'JavaScript', logo: jsLogo, level: 80 },
+  { name: 'React', logo: reactLogo, level: 85 },
+  { name: 'Python', logo: python, level: 55 },
+  { name: 'WordPress', logo: wordpress, level: 50 },
+  { name: 'PHP', logo: php, level: 60 },
   { name: 'Node.js', logo: nodeLogo, level: 60 },
   { name: 'MySQL', logo: mysqlLogo, level: 60 },
   { name: 'MongoDB', logo: mongodbLogo, level: 60 },

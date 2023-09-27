@@ -41,7 +41,7 @@
 
 .skill-bar-container {
   flex-grow: 1;
-  height: 20px;
+  height: 18px;
   background-color: var(--grey);
   margin-left: 10px;
   border-radius: 10px;
