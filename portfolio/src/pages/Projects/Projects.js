@@ -11,7 +11,7 @@ import './Projects.css'
 function Projects() {
   const projectData = [
     {
-      title: "Quote Generator.",
+      title: "Quote Generator",
       image: quote,
       description: "Quote Generator is a full-stack application that allows users to save and generate quotes. It is crafted with a modern React frontend, powered by a Python microservice, and backed by SQLite. The application features a user-friendly interface that enables users to effortlessly save their favorite quotes and generate random ones at their leisure. Quote Generator is a robust and scalable application that showcases my skills in developing and deploying full-stack applications, utilizing a variety of technologies and frameworks.",
       link: "https://github.com/TurboTeam335/quote-generator",
