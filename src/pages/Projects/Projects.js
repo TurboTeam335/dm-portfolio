@@ -3,13 +3,20 @@ import { Card, Button, Container, Row, Col } from 'react-bootstrap';
 import smirk from "./img/smirk2.png"
 import bookends from "./img/bookends.png"
 import portfolio from '../../assets/img/portfolio-img3.png'
-import appointme from './img/appointme.png'
+import blueCactus from './img/bluecactus.png'
 import weatherHub from './img/weatherHub.png'
 import quote from './img/quote.png'
 import './Projects.css'
 
 function Projects() {
   const projectData = [
+    {
+      title: "Blue Cactus",
+      image: blueCactus,
+      description: "Blue Cactus Horticulture is an innovative garden design and landscaping service in Seattle, emphasizing sustainable practices and personalized customer experiences. This project, encapsulated in a React-based web application, features dynamic navigation and fluid page transitions, elevating the user experience. Utilizing Material UI for its aesthetic interface and EmailJS for efficient customer communication.",
+      link: "https://github.com/TurboTeam335/blue-cactus",
+      deployedLink: "https://bluecactushorticulture.com/"
+    },
     {
       title: "Quote Generator",
       image: quote,
