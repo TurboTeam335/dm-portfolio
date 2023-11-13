@@ -31,7 +31,7 @@ function About() {
 
       <a
         className="btn btn-custom shadow-custom mx-4 resume"
-        href="https://raw.githubusercontent.com/TurboTeam335/dm-portfolio/blob/main/Daniel%20Mascali%20JrDev%20Resume%20.pdf"
+        href="https://raw.githubusercontent.com/TurboTeam335/dm-portfolio/main/Daniel%20Mascali%20JrDev%20Resume%20.pdf"
         download
         target="_blank"
         rel="noopener noreferrer"
