@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/dm-portfolio/static/css/main.eb3e9ec4.css",
-    "main.js": "/dm-portfolio/static/js/main.89eb1551.js",
-    "static/js/787.a2cb61a6.chunk.js": "/dm-portfolio/static/js/787.a2cb61a6.chunk.js",
-    "static/media/bookends.png": "/dm-portfolio/static/media/bookends.5ee20f42515b2e9bdbf8.png",
-    "static/media/smirk2.png": "/dm-portfolio/static/media/smirk2.1d10170fcd0231adb120.png",
-    "static/media/portfolio-img3.png": "/dm-portfolio/static/media/portfolio-img3.9902a46cfc01b89f0205.png",
-    "static/media/headshot.png": "/dm-portfolio/static/media/headshot.8a5c11d0ace76597c34d.png",
-    "static/media/weatherHub.png": "/dm-portfolio/static/media/weatherHub.abf3efb9fe7b3269ca0f.png",
-    "static/media/php.png": "/dm-portfolio/static/media/php.aa680f57bf75b5d5acdc.png",
-    "static/media/uncg.png": "/dm-portfolio/static/media/uncg.17948dfa502d36369f3c.png",
-    "static/media/quote.png": "/dm-portfolio/static/media/quote.5ef4e57797387b92c2a7.png",
-    "static/media/appointme.png": "/dm-portfolio/static/media/appointme.26e1f5e8f1c34909393d.png",
-    "static/media/googleAssistantLogo.webp": "/dm-portfolio/static/media/googleAssistantLogo.f720c71652579588524a.webp",
-    "static/media/coursera.png": "/dm-portfolio/static/media/coursera.a1351c28bb0fc4ca62ad.png",
-    "static/media/vanderbilt.webp": "/dm-portfolio/static/media/vanderbilt.f046a9fa0f7815acefa8.webp",
-    "index.html": "/dm-portfolio/index.html",
-    "main.eb3e9ec4.css.map": "/dm-portfolio/static/css/main.eb3e9ec4.css.map",
-    "main.89eb1551.js.map": "/dm-portfolio/static/js/main.89eb1551.js.map",
-    "787.a2cb61a6.chunk.js.map": "/dm-portfolio/static/js/787.a2cb61a6.chunk.js.map"
+    "main.css": "./static/css/main.eb3e9ec4.css",
+    "main.js": "./static/js/main.29356da9.js",
+    "static/js/787.a2cb61a6.chunk.js": "./static/js/787.a2cb61a6.chunk.js",
+    "static/media/bluecactus.png": "./static/media/bluecactus.4a9b6262483a233e5dab.png",
+    "static/media/bookends.png": "./static/media/bookends.5ee20f42515b2e9bdbf8.png",
+    "static/media/smirk2.png": "./static/media/smirk2.1d10170fcd0231adb120.png",
+    "static/media/portfolio-img3.png": "./static/media/portfolio-img3.9902a46cfc01b89f0205.png",
+    "static/media/headshot.png": "./static/media/headshot.8a5c11d0ace76597c34d.png",
+    "static/media/weatherHub.png": "./static/media/weatherHub.abf3efb9fe7b3269ca0f.png",
+    "static/media/php.png": "./static/media/php.aa680f57bf75b5d5acdc.png",
+    "static/media/uncg.png": "./static/media/uncg.17948dfa502d36369f3c.png",
+    "static/media/quote.png": "./static/media/quote.5ef4e57797387b92c2a7.png",
+    "static/media/googleAssistantLogo.webp": "./static/media/googleAssistantLogo.f720c71652579588524a.webp",
+    "static/media/coursera.png": "./static/media/coursera.a1351c28bb0fc4ca62ad.png",
+    "static/media/vanderbilt.webp": "./static/media/vanderbilt.f046a9fa0f7815acefa8.webp",
+    "index.html": "./index.html",
+    "main.eb3e9ec4.css.map": "./static/css/main.eb3e9ec4.css.map",
+    "main.29356da9.js.map": "./static/js/main.29356da9.js.map",
+    "787.a2cb61a6.chunk.js.map": "./static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.eb3e9ec4.css",
-    "static/js/main.89eb1551.js"
+    "static/js/main.29356da9.js"
   ]
 }
