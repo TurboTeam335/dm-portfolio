@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
 
 :root {
-  --purple: #55198b;
+  /* --purple: #55198b; */
   --appleWhite: #f5f5f7;
   --appleBlack: #1d1d1f;
   --orange: #d2742d;
@@ -15,12 +15,14 @@
   --background: var(--appleWhite);
   --font-color: var(--appleBlack);
   --shadow: var(--shadow-light);
+  --purple: #7c4da4;
 }
 
 .dark {
   --background: var(--appleBlack);
   --font-color: var(--appleWhite);
   --shadow: var(--shadow-dark);
+  --purple: #9b4ede;
 }
 
 * {

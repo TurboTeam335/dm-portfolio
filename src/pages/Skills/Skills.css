@@ -6,85 +6,65 @@
 
 .skill-col {
   margin: 10px;
-  text-align: center;
 }
 
-#skill-logo {
+.skill-item {
+  text-align: center; 
+}
+
+.skills-logo {
   max-width: 60px;
   height: 60px;
+  margin: 0 auto; 
+  display: block; 
 }
 
 .skill-name {
   font-size: 16px;
   color: var(--font-color);
-  text-align: center;
+  margin-top: 8px; 
 }
 
 .skill-descriptions {
   list-style-type: none;
   padding-left: 0;
-  margin-top: 150px;
-  font-size: 24px;
-
+  font-size: 18px;
 }
 
 .skill-descriptions li {
-  margin-bottom: 25px;
+  margin-bottom: 20px;
   color: var(--font-color);
 }
 
-.skill-row {
-  display: flex;
-  align-items: center;
-  margin-bottom: 16px;
+.proficiencies {
+  margin-bottom: 10%;
 }
 
-.skill-bar-container {
-  flex-grow: 1;
-  height: 18px;
-  background-color: var(--grey);
-  margin-left: 10px;
-  border-radius: 10px;
-}
-
-.skill-bar {
-  height: 100%;
-  background-color: var(--purple);
-   border-radius: 10px;
-   transition: width 1.5s ease-out;
-}
-
+/* For medium-sized screens */
 @media (max-width: 950px) {
-  .skill-col {
-    flex: 0 0 33.33333%;
-    max-width: 33.33333%;
-  }
-
-  .skill-logo {
-    width: 40px;
-    height: 40px;
+  .skills-logo {
+    width: 50px;
+    height: 50px;
   }
 
   .skill-name {
-    font-size: 0.8em;
+    font-size: 14px;
   }
 
-  .skill-descriptions {
-    margin-top: 0;
-    /* font-size: 16px; */
-    
-  }
-   .skill-descriptions li {
-    text-align: center;
- 
+  .proficiencies {
+    margin-bottom: 0;
   }
 }
 
+/* For smaller screens */
 @media (max-width: 767px) {
-
+  .skill-col {
+    flex: 0 0 25%; /* 4 skills per row */
+    max-width: 25%;
+  }
 
   .skill-descriptions {
-    /* margin-top: 0; */
     font-size: 16px;
   }
 }
+

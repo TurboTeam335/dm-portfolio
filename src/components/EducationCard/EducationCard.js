@@ -12,7 +12,7 @@ export const schoolInfo = [
     schoolName: 'Vanderbilt University Full Stack Developer Bootcamp',
     logo: vanderbiltLogo,
     subHeader:
-      'intensive program, specializing in HTML5, CSS3, Javascript, ReactJS, and Node Js',
+      'Intensive program, specializing in HTML5, CSS3, Javascript, ReactJS, and Node Js',
     duration: '2023',
   },
 
@@ -63,7 +63,7 @@ export default function EducationCard({ school }) {
           {school.logo && (
             <div className='col-auto d-flex align-items-center'>
               <Image
-                id='skill-logo'
+                className='education-logo'
                 ref={imgRef}
                 src={school.logo}
                 alt={school.schoolName}

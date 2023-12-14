@@ -1,20 +1,40 @@
-.school-name {
-  color: var(--font-color);
-  word-wrap: break-word;
+.card {
+  margin-bottom: 1em;
+  border: none;
+
+  &:not(:last-child) {
+    border-bottom: 1px solid #ddd;
+  }
 }
 
-.subheader {
-  color: var(--font-color);
-  word-wrap: break-word;
+.card-body {
+  .row {
+    align-items: center; 
+  }
+
+  .school-name {
+    color: var(--font-color);
+    word-wrap: break-word;
+  }
+
+  .education-info {
+    .subheader {
+      color: var(--font-color);
+      word-wrap: break-word;
+    }
+    .duration {
+      color: var(--font-color);
+    }
+  }
 }
 
-
-#skill-logo {
-  width: 500px;
+.education-logo {
+  width: 150px ; 
   height: auto; 
+  margin-left: 55px;
 }
 
-.btn:focus, .btn.focus {
+/* .btn:focus, .btn.focus {
   outline: 0 !important;
   box-shadow: none !important;
 }
@@ -51,20 +71,27 @@
 
 .shadow-custom {
   box-shadow: var(--shadow) !important;
-}
+} */
 
 
 @media (max-width: 820px) {
-  #skill-logo {
+  .education-logo {
     width: 100px;
     height: auto;
+    margin-left: 0;
   }
 }
 
 /* Smartphone view */
 @media (max-width: 576px) {
-  #skill-logo {
+  /* .skill-logo {
     width: 60px;
     height: auto;
+  } */
+
+  .card-body  {
+    font-size: 14px;
   }
+
+
 }

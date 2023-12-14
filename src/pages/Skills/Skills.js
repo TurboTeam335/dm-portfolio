@@ -34,39 +34,30 @@ const skillsDescriptions = [
 ];
 
 
-function Skills({ schools }) {
-  const [loaded, setLoaded] = useState(false);
-
-  useEffect(() => {
-    setTimeout(() => {
-      setLoaded(true);
-    }, 300); 
-  }, []);
-
-      return (
-        <Container id='' className='py-4'>
-          <Row>
-            <Col lg={6}>
-              <h2>Skills</h2>
-              <Row className='skills-container'>
-                {skills.map((skill, index) => (
-                  <Col sm={12} key={index} className='skill-row'>
-                    <Image
-                      src={skill.logo}
-                      alt={skill.name}
-                      id='skill-logo'
-                      fluid
-                    />
-                    <div className="skill-bar-container">
-                    <div className="skill-bar" style={{width: loaded ? `${skill.level}%` : '0%'}}></div>
-
-                    </div>
-                    {/* <p className='skill-name'>{skill.name}</p> */}
-                  </Col>
-                ))}
-              </Row>
-            </Col>
+function Skills() {
+  return (
+    <Container className='py-4'>
+      <Row>
         <Col lg={6}>
+          <h2>Skills</h2>
+          <Row className='skills-container'>
+            {skills.map((skill, index) => (
+              <Col xs={3} md={3} key={index} className='skill-col'>
+                <div className='skill-item'> {/* New wrapper */}
+                  <Image
+                    src={skill.logo}
+                    alt={skill.name}
+                    className='skills-logo'
+                    fluid
+                  />
+                  <p className='skill-name'>{skill.name}</p>
+                </div>
+              </Col>
+            ))}
+          </Row>
+        </Col>
+        <Col lg={6}>
+          <h2 className='proficiencies'>Proficiencies</h2>
           <ul className='skill-descriptions'>
             {skillsDescriptions.map((description, index) => (
               <li key={index}>{description}</li>
@@ -79,3 +70,5 @@ function Skills({ schools }) {
 }
 
 export default Skills;
+
+

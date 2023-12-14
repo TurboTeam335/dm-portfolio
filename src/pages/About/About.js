@@ -18,15 +18,13 @@ function About() {
           <Image src={headshot} roundedCircle className="navbar-headshot" />
         </Col>
         <Col xs={12} md={8} className="order-2 order-md-1">
-          <p className="about-me mx-4">
-            I am a Full Stack Software Developer with a keen eye for detail and
-            a propensity for creative problem-solving. Driven by enthusiasm and
-            the desire to continuously learn, I tackle coding challenges with a
-            unique approach, influenced by my background in music. My goal is to
-            leverage my technical skills and creative expression to craft
-            visually appealing, innovative websites and applications.
-          </p>
-        </Col>
+  <div className="about-me mx-4">
+    <p>
+    As an emerging Full Stack Developer with a background in music, I bring a unique blend of creativity and technical skill to the world of web development. Specializing in front-end technologies like React, CSS, and HTML, I have a keen interest in UI/UX design, aiming to create visually appealing and user-friendly digital experiences. My journey from touring musician to tech enthusiast is marked by a passion for learning and adapting, qualities that I apply in every project. Off-screen, my love for cooking and music enriches my attention to detail and collaborative spirit. Eager to explore the vast possibilities in tech, I am on a mission to combine my artistic flair with practical coding skills to make a meaningful impact in the digital realm.
+    </p>
+  </div>
+</Col>
+
       </Row>
 
       <a
