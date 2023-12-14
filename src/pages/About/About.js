@@ -30,7 +30,7 @@ function About() {
       </Row>
 
       <a
-        className="btn btn-custom shadow-custom mx-4 resume"
+        className="btn btn-custom  mx-4 resume"
         href="https://raw.githubusercontent.com/TurboTeam335/dm-portfolio/76c43e8bb892d542dd4c7677e0f24ab4a4dd4636/Daniel%20Mascali%20JrDev%20Resume%20.pdf"
         download
         target="_blank"

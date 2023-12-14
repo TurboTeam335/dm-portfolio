@@ -57,7 +57,7 @@ export default function EducationCard({ school }) {
   };
 
   return (
-    <Card className='shadow-custom' style={{ marginBottom: '1em' }}>
+    <Card  style={{ marginBottom: '1em' }}>
       <Card.Body>
         <div className='row'>
           {school.logo && (
@@ -82,7 +82,7 @@ export default function EducationCard({ school }) {
         <div className='mt-auto d-flex justify-content-center'>
           {school.url && (
             <Button
-              className='btn btn-custom shadow-custom mx-1'
+              className='btn btn-custom  mx-1'
               variant='custom'
               onClick={navigateToUrl}
               target='_blank'
