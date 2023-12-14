@@ -9,7 +9,7 @@
 
 .card-body {
   .row {
-    align-items: center; 
+    align-items: center;
   }
 
   .school-name {
@@ -29,50 +29,10 @@
 }
 
 .education-logo {
-  width: 150px ; 
-  height: auto; 
+  width: 150px;
+  height: auto;
   margin-left: 55px;
 }
-
-/* .btn:focus, .btn.focus {
-  outline: 0 !important;
-  box-shadow: none !important;
-}
-
-.btn-custom {
-  color: var(--appleWhite);
-  background-color: var(--purple);
-  font-weight: bold;
-  display: inline-block; 
-  width: auto;
-}
-
-.btn-custom:hover {
-  color: var(--purple);
-  background-color: var(--appleWhite);
-  border-color: var(--purple);
-}
-
-.btn.btn-custom:focus,
-.btn.btn-custom:active {
-  background-color: var(--purple);
-  color: var(--appleWhite);
-  border-color: var(--purple);
-  box-shadow: none;
-}
-
-.btn.btn-custom:active:focus,
-.btn.btn-custom:focus:hover {
-  background-color: var(--appleWhite);
-  color: var(--purple);
-  border-color: var(--purple);
-  box-shadow: none;
-}
-
-.shadow-custom {
-  box-shadow: var(--shadow) !important;
-} */
-
 
 @media (max-width: 820px) {
   .education-logo {
@@ -80,18 +40,21 @@
     height: auto;
     margin-left: 0;
   }
+
+  .school-name {
+    font-size: 14px;
+  }
+
+  .education-info {
+    .subheader {
+      font-size: 12px;
+    }
+    .duration {
+      font-size: 12px;
+    }
+  }
 }
 
 /* Smartphone view */
 @media (max-width: 576px) {
-  /* .skill-logo {
-    width: 60px;
-    height: auto;
-  } */
-
-  .card-body  {
-    font-size: 14px;
-  }
-
-
 }

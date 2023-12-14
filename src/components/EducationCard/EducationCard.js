@@ -57,7 +57,7 @@ export default function EducationCard({ school }) {
   };
 
   return (
-    <Card  style={{ marginBottom: '1em' }}>
+    <Card style={{ marginBottom: '1em' }}>
       <Card.Body>
         <div className='row'>
           {school.logo && (
@@ -67,7 +67,6 @@ export default function EducationCard({ school }) {
                 ref={imgRef}
                 src={school.logo}
                 alt={school.schoolName}
-               
               />
             </div>
           )}

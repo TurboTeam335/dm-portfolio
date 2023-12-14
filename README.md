@@ -43,7 +43,7 @@ The application will be available on `http://localhost:3000/`.
 
 ## Usage
 
-You can access the deployed site using the following link: [Daniel Mascali Portfolio](https://turboteam335.github.io/dm-portfolio/)
+You can access the deployed site using the following link: [Daniel Mascali Portfolio](https://danielmascali.com/)
 
 As you navigate through the 'React Portfolio', you will see different sections:
 
