@@ -1,4 +1,5 @@
-import React, { useContext } from 'react'; // add useContext here
+import React, { useContext, useState } from 'react'; 
+import { Link } from 'react-router-dom';
 import { Navbar, Nav } from 'react-bootstrap';
 import './Navbar.css';
 import ToggleSwitch from '../ToggleSwitch/ToggleSwitch';
@@ -6,12 +7,20 @@ import ThemeContext from '../ThemeContext/ThemeContext';
 
 function NavBar({ currentPage, handlePageChange }) {
   const { isDark } = useContext(ThemeContext);
+  const [navExpanded, setNavExpanded] = useState(false);
+
+  const handleNavClick = (page) => {
+    handlePageChange(page);
+    setNavExpanded(false); 
+  };
   return (
     <Navbar
       className={isDark ? 'navbar dark' : 'navbar'}
       variant='dark'
       expand='lg'
       sticky='top'
+      expanded={navExpanded} 
+      onToggle={setNavExpanded} 
     >
       <Navbar.Brand>
         <div className='d-flex align-items-center'>
@@ -27,7 +36,7 @@ function NavBar({ currentPage, handlePageChange }) {
           <li>
             <Nav.Link
               href='#about'
-              onClick={() => handlePageChange('About')}
+              onClick={() => handleNavClick('About')}
               className={currentPage === 'About' ? 'active-link' : ''}
             >
               About
@@ -36,7 +45,7 @@ function NavBar({ currentPage, handlePageChange }) {
           <li>
             <Nav.Link
               href='#projects'
-              onClick={() => handlePageChange('Projects')}
+              onClick={() => handleNavClick('Projects')}
               className={currentPage === 'Projects' ? 'active-link' : ''}
             >
               Projects
@@ -46,7 +55,7 @@ function NavBar({ currentPage, handlePageChange }) {
           <li>
             <Nav.Link
               href='#education'
-              onClick={() => handlePageChange('Education')}
+              onClick={() => handleNavClick('Education')}
               className={currentPage === 'Education' ? 'active-link' : ''}
             >
               Education
@@ -55,7 +64,7 @@ function NavBar({ currentPage, handlePageChange }) {
           <li>
             <Nav.Link
               href='#skills'
-              onClick={() => handlePageChange('Skills')}
+              onClick={() => handleNavClick('Skills')}
               className={currentPage === 'Skills' ? 'active-link' : ''}
             >
               Skills

@@ -1,6 +1,6 @@
 .navbar-dark .navbar-toggler-icon {
   background-color: var(--purple);
-  border-radius: 30%;
+  border-radius: 20%;
   width: 30px;
   height: 30px;
 }
@@ -8,6 +8,7 @@
 .navbar {
   background-color: var(--background);
   color: var(--font-color);
+  
 }
 
 .brand-name {
@@ -58,25 +59,27 @@
   color: var(--orange) !important;
 }
 
-
-@media (max-width: 767px) {
-  .navbar-collapse {
-    width: 100%;
-  }
-  .nav-list {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-  }
+.navbar-brand-link {
+  text-decoration: none; 
+  color: inherit; 
 }
 
 @media (max-width: 767px) {
   .navbar-collapse {
-    justify-content: flex-end;
+    width: 100%; 
+    flex-grow: 1; 
   }
+
   .nav-list {
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: flex-end; 
+    width: 100%; 
+    padding-left: 0; 
+  }
+
+  .brand-name {
+    font-size: 32px;
   }
 }
+
