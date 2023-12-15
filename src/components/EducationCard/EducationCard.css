@@ -40,21 +40,29 @@
     height: auto;
     margin-left: 0;
   }
-
-  .school-name {
-    font-size: 14px;
-  }
-
-  .education-info {
-    .subheader {
-      font-size: 12px;
-    }
-    .duration {
-      font-size: 12px;
-    }
-  }
 }
 
 /* Smartphone view */
 @media (max-width: 576px) {
+  .card-body .row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .education-logo {
+    margin-bottom: 15px; 
+    width: 150px;
+    height: auto;
+  }
+
+  .col-auto {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .col {
+    width: 100%;
+  }
 }
