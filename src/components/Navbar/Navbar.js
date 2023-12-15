@@ -78,7 +78,7 @@ function NavBar({ currentPage, handlePageChange }) {
           <Nav.Item>
             <Nav.Link
               as='a'
-              href='https://raw.githubusercontent.com/TurboTeam335/dm-portfolio/76c43e8bb892d542dd4c7677e0f24ab4a4dd4636/Daniel%20Mascali%20JrDev%20Resume%20.pdf'
+              href='https://raw.githubusercontent.com/TurboTeam335/dm-portfolio/4270909753c7d438ce3ec88abdf01ad3dde24cbf/Daniel%20Mascali%20%202023%20JrDev%20Resume.pdf'
               download
               target='_blank'
               rel='noopener noreferrer'
