@@ -71,6 +71,28 @@ function NavBar({ currentPage, handlePageChange }) {
             </Nav.Link>
           </li>
           <li>
+            <Nav.Link
+              href='#contact'
+              onClick={() => handleNavClick('Contact')}
+              className={currentPage === 'Contact' ? 'active-link' : ''}
+            >
+              Contact
+            </Nav.Link>
+          </li>
+          <li>
+            <Nav.Link
+              as="a"
+              href="https://raw.githubusercontent.com/TurboTeam335/dm-portfolio/76c43e8bb892d542dd4c7677e0f24ab4a4dd4636/Daniel%20Mascali%20JrDev%20Resume%20.pdf"
+              download
+              target="_blank"
+              rel="noopener noreferrer"
+              className={currentPage === 'Resume' ? 'active-link' : ''}
+              onClick={() => handleNavClick('Resume')}
+            >
+              Resume
+            </Nav.Link>
+          </li>
+          <li>
             <ToggleSwitch />
           </li>
         </ul>

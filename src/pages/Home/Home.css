@@ -1,0 +1,68 @@
+.navbar-headshot {
+  width: 275px;
+  height: 300px;
+  margin-right: 10px;
+}
+.text-block {
+  text-align: left;
+}
+
+
+.wave {
+  display: inline-block;
+  animation: wave-stop 0s;
+  animation-fill-mode: forwards;
+}
+
+.wave:hover {
+  animation: wave 1.5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes wave {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(14deg);
+  }
+  20% {
+    transform: rotate(-8deg);
+  }
+  30% {
+    transform: rotate(14deg);
+  }
+  40% {
+    transform: rotate(-4deg);
+  }
+  50% {
+    transform: rotate(14deg);
+  }
+  60% {
+    transform: rotate(-8deg);
+  }
+  70% {
+    transform: rotate(14deg);
+  }
+  80% {
+    transform: rotate(-4deg);
+  }
+  90% {
+    transform: rotate(14deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@media (max-width: 767px) {
+  .navbar-headshot {
+    width: 150px;
+    height: 150px;
+    margin-left: 25px;
+    margin-bottom: 15px;
+  }
+  .text-block {
+    text-align: left;
+  }
+}

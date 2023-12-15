@@ -4,9 +4,11 @@ import Projects from "../../pages/Projects/Projects";
 import Skills from "../../pages/Skills/Skills";
 import Navbar from "../Navbar/Navbar";
 import Education from "../../pages/Education/Education";
+import Home from "../../pages/Home/Home";
+import Contact from "../../pages/Contact/Contact";
 
 export default function PortfolioContainer() {
-  const [currentPage, setCurrentPage] = useState("About");
+  const [currentPage, setCurrentPage] = useState("Home");
 
   const renderPage = () => {
     if (currentPage === "Education") {
@@ -18,7 +20,13 @@ export default function PortfolioContainer() {
     if (currentPage === "Skills") {
       return <Skills />;
     }
-    return <About />;
+    if (currentPage === "About") {
+      return <About />;
+    }
+    if (currentPage === "Contact") {
+      return <Contact />;
+    }
+    return <Home />;
   };
 
   const handlePageChange = page => {

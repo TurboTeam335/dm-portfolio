@@ -1,18 +1,5 @@
 
 
-#about {
-  padding: 50px 0 0 0;
-  background-color: var(--background);
-  /* margin: 5%;
-  padding: 5%; */
-  min-height: 80vh;
-}
-.about-title {
-  color: var(--font-color);
-  animation: none ;
-}
-
-
 #about h2 {
   font-size: 2em;
   margin-bottom: 10px;
@@ -20,15 +7,9 @@
 }
 
 #about p {
-  font-size: 1.2em;
+  font-size: 1.1em;
   line-height: 1.6;
   color: var(--font-color);
-}
-
-.navbar-headshot {
-  width: 275px;
-  height: 275px;
-  margin-right: 10px;
 }
 
 .btn.btn-custom {
@@ -38,7 +19,7 @@
   transition: color 0.3s ease;
   background-color: transparent;
   border: none;
-  padding-bottom: 2px; 
+  padding-bottom: 2px;
 
   &:hover,
   &:focus {
@@ -78,64 +59,7 @@
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
 }
 
-.wave {
-  display: inline-block;
-  animation: wave-stop 0s;
-  animation-fill-mode: forwards;
-}
-
-.wave:hover {
-  animation: wave 1.5s;
-  animation-fill-mode: forwards;
-}
-
-@keyframes wave {
-  0% {
-    transform: rotate(0deg);
-  }
-  10% {
-    transform: rotate(14deg);
-  }
-  20% {
-    transform: rotate(-8deg);
-  }
-  30% {
-    transform: rotate(14deg);
-  }
-  40% {
-    transform: rotate(-4deg);
-  }
-  50% {
-    transform: rotate(14deg);
-  }
-  60% {
-    transform: rotate(-8deg);
-  }
-  70% {
-    transform: rotate(14deg);
-  }
-  80% {
-    transform: rotate(-4deg);
-  }
-  90% {
-    transform: rotate(14deg);
-  }
-  100% {
-    transform: rotate(0deg);
-  }
-}
-
-
-
 @media (max-width: 767px) {
-  
-  .navbar-headshot {
-    width: 150px;
-    height: 150px;
-    margin-left: 25px;
-    margin-bottom: 15px;
-  }
-
   #about {
     margin-left: 9px;
   }
@@ -144,6 +68,6 @@
     font-size: 1rem;
   }
   .about-title {
-  font-size: 32px;
+    font-size: 32px;
   }
 }

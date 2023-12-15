@@ -23,6 +23,14 @@
   width: fit-content;
 }
 
+.nav-list li {
+  margin-left: -8px; 
+}
+
+
+.nav-list li:last-child {
+  margin-right: 0; 
+}
 .nav-list li a {
   color: var(--purple);
   font-weight: bolder;
@@ -64,7 +72,9 @@
   color: inherit; 
 }
 
-@media (max-width: 767px) {
+
+
+@media (max-width: 992px) {
   .navbar-collapse {
     width: 100%; 
     flex-grow: 1; 
