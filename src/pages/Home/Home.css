@@ -68,18 +68,18 @@
 @media (max-width: 767px) {
 
   .home {
-    padding-top: 20vh; /* More padding for smaller screens */
-    padding-bottom: 20vh; /* More padding for smaller screens */
+
+    padding-bottom: 10vh !important; 
   }
 
   .navbar-headshot {
     width: 150px;
-    height: 150px;
+    height: 160px;
     margin-left: 25px;
     margin-bottom: 15px;
   }
   .text-block {
     text-align: left;
-    height: auto; /* Adjust for smaller screens */
+    height: auto; 
   }
 }
