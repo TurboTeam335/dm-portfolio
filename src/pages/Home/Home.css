@@ -1,11 +1,21 @@
+.home {
+  padding-top: 10vh; 
+  padding-bottom: 10vh; 
+}
+.text-block {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Vertically center content */
+  height: 80vh; /* Adjust based on your design */
+}
+
 .navbar-headshot {
   width: 275px;
   height: 300px;
   margin-right: 10px;
 }
-.text-block {
-  text-align: left;
-}
+
 
 
 .wave {
@@ -56,6 +66,12 @@
 }
 
 @media (max-width: 767px) {
+
+  .home {
+    padding-top: 20vh; /* More padding for smaller screens */
+    padding-bottom: 20vh; /* More padding for smaller screens */
+  }
+
   .navbar-headshot {
     width: 150px;
     height: 150px;
@@ -64,5 +80,6 @@
   }
   .text-block {
     text-align: left;
+    height: auto; /* Adjust for smaller screens */
   }
 }

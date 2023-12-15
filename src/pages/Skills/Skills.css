@@ -1,3 +1,15 @@
+.skills-carousel {
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.skill-col {
+  display: inline-block;
+  margin: 10px;
+  vertical-align: top;
+}
+
+
 .skills-container {
   display: flex;
   flex-wrap: wrap;
@@ -10,12 +22,14 @@
 
 .skill-item {
   text-align: center; 
+  padding: 10px;
+  transform: translate3d(0, 0, 0);
 }
 
 .skills-logo {
   max-width: 60px;
   height: 60px;
-  margin: 0 auto; 
+  margin: 10px auto; 
   display: block; 
 }
 
@@ -40,6 +54,15 @@
   margin-bottom: 10%;
 }
 
+.skills-box {
+  border: 2px solid var(--purple); 
+  border-radius: 10px; 
+  padding: 20px;
+  margin-top: 20px;
+
+  overflow: hidden; 
+}
+
 /* For medium-sized screens */
 @media (max-width: 950px) {
   .skills-logo {
@@ -59,12 +82,22 @@
 /* For smaller screens */
 @media (max-width: 767px) {
   .skill-col {
-    flex: 0 0 25%; /* 4 skills per row */
+    flex: 0 0 25%;
     max-width: 25%;
   }
 
-  .skill-descriptions {
-    font-size: 16px;
+  .skill-item {
+    padding: 5px; 
   }
+  .skills-logo {
+    width: 40px; 
+    height: 40px;
+  }
+  .skill-name {
+    font-size: 12px; 
+  }
+
+
+
 }
 

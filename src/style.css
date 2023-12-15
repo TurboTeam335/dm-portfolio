@@ -31,6 +31,9 @@
   font-family: "Gudea", sans-serif;
   font-family: "Montserrat", sans-serif;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 html,
 body {
@@ -53,6 +56,10 @@ body {
   color: var(--font-color);
   --shadow: var(--shadow-light);
 }
+.section-anchor {
+  padding-top: 70px; 
+  margin-top: -70px; 
+}
 
 footer {
   margin-top: auto;
@@ -72,3 +79,9 @@ code {
     monospace;
 }
 
+@media (max-width: 767px) {
+  .section-anchor {
+    padding-top: 300px; /* Slightly more than navbar height */
+    margin-top: -300px; /* Equal to padding-top */
+  }
+}

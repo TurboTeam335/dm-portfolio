@@ -11,7 +11,7 @@ function About() {
           <h2>About</h2>
         </Col>
         <Col xs={12} className='order-2 order-md-1'>
-          <div className='about-me mx-4'>
+          <div className='about-me mx-1'>
             <p>
               As a budding Full Stack Developer with a rich history in music and
               an adventurous spirit, I bring a fresh and dynamic approach to

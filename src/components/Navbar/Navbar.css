@@ -1,19 +1,29 @@
-.navbar-dark .navbar-toggler-icon {
-  background-color: var(--purple);
-  border-radius: 20%;
-  width: 30px;
-  height: 30px;
+.navbar-dark .navbar-toggler {
+  border: none;
+  outline: none;
+  background: none;
 }
+
+.navbar-toggler {
+  border: none;
+  outline: none;
+}
+
+.navbar-toggler img {
+  width: 30px; 
+  height: auto;
+margin-bottom: 5px;
+}
+
 
 .navbar {
   background-color: var(--background);
   color: var(--font-color);
-  
 }
 
 .brand-name {
   color: var(--purple);
-  font-family: "Kaushan Script", cursive;
+  font-family: 'Kaushan Script', cursive;
 }
 
 .brand-name,
@@ -22,45 +32,58 @@
   margin-right: auto;
   width: fit-content;
 }
+.navbar-brand-link {
+  text-decoration: none;
+  color: inherit;
+}
+.navbar-brand-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.navbar-brand-link:hover,
+.navbar-brand-link:focus {
+  text-decoration: none;
+  outline: none;
+}
 
 .nav-list li {
-  margin-left: -8px; 
+  margin-left: 10px;
 }
-
 
 .nav-list li:last-child {
-  margin-right: 0; 
+  margin-right: 0;
 }
-.nav-list li a {
-  color: var(--purple);
+.nav-list .nav-item .nav-link {
+  color: var(--purple) !important;
   font-weight: bolder;
   position: relative;
   transition: color 0.3s ease;
 }
 
-.nav-list li a:hover {
-  color: var(--orange);
+.nav-list .nav-item .nav-link:hover {
+  color: var(--orange) !important;
 }
 
-.nav-list li a::after {
-  content: "";
+.nav-list .nav-item .nav-link::after {
+  content: '';
   position: absolute;
   width: 0;
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: var(--orange);
+  background-color: var(--orange) !important;
   visibility: hidden;
   transition: all 0.3s ease-in-out;
 }
 
-.nav-list li a:hover::after {
+.nav-list .nav-item .nav-link:hover::after {
   visibility: visible;
   width: 100%;
 }
 
-.nav-list li a:active {
-  color: var(--orange);
+.nav-list .nav-item .nav-link:active {
+  color: var(--orange) !important;
 }
 
 .active-link {
@@ -68,28 +91,25 @@
 }
 
 .navbar-brand-link {
-  text-decoration: none; 
-  color: inherit; 
+  text-decoration: none;
+  color: inherit;
 }
-
-
 
 @media (max-width: 992px) {
   .navbar-collapse {
-    width: 100%; 
-    flex-grow: 1; 
+    width: 100%;
+    flex-grow: 1;
   }
 
   .nav-list {
     display: flex;
     flex-direction: column;
-    align-items: flex-end; 
-    width: 100%; 
-    padding-left: 0; 
+    align-items: flex-end;
+    width: 100%;
+    padding-left: 0;
   }
 
   .brand-name {
     font-size: 32px;
   }
 }
-

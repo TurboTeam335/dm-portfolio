@@ -1,101 +1,97 @@
-import React, { useContext, useState } from 'react'; 
-import { Link } from 'react-router-dom';
+import React, { useContext, useState } from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
 import './Navbar.css';
 import ToggleSwitch from '../ToggleSwitch/ToggleSwitch';
 import ThemeContext from '../ThemeContext/ThemeContext';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
+import lightHam from './img/hamburger-light.png';
+import darkHam from './img/hamburger dark.png';
+import lightX from './img/x-light.png';
+import darkX from './img/x-dark.png';
 
 function NavBar({ currentPage, handlePageChange }) {
   const { isDark } = useContext(ThemeContext);
   const [navExpanded, setNavExpanded] = useState(false);
 
-  const handleNavClick = (page) => {
-    handlePageChange(page);
-    setNavExpanded(false); 
+  const handleNavClick = () => {
+    setNavExpanded(false);
   };
+  const togglerIcon = navExpanded
+    ? isDark
+      ? darkX
+      : lightX
+    : isDark
+    ? darkHam
+    : lightHam;
+
   return (
     <Navbar
       className={isDark ? 'navbar dark' : 'navbar'}
       variant='dark'
       expand='lg'
       sticky='top'
-      expanded={navExpanded} 
-      onToggle={setNavExpanded} 
+      expanded={navExpanded}
+  onToggle={() => setNavExpanded(!navExpanded)}
     >
       <Navbar.Brand>
-        <div className='d-flex align-items-center'>
-          <div>
+        <a href='#home' className='navbar-brand-link'>
+          <div className='d-flex align-items-center'>
             <h1 className='brand-name'>&lt; Daniel Mascali /&gt;</h1>
           </div>
-        </div>
+        </a>
       </Navbar.Brand>
 
-      <Navbar.Toggle aria-controls='basic-navbar-nav' />
+      <Navbar.Toggle aria-controls='basic-navbar-nav'>
+      <img src={togglerIcon} alt={navExpanded ? "Close navigation" : "Open navigation"} />
+
+      </Navbar.Toggle>
+
       <Navbar.Collapse id='basic-navbar-nav' className='navbar-collapse'>
-        <ul className='ml-auto nav nav-list'>
-          <li>
-            <Nav.Link
-              href='#about'
-              onClick={() => handleNavClick('About')}
-              className={currentPage === 'About' ? 'active-link' : ''}
-            >
+        <Nav className='ml-auto nav nav-list'>
+          <Nav.Item>
+            <Nav.Link href='#about' onClick={handleNavClick}>
               About
             </Nav.Link>
-          </li>
-          <li>
-            <Nav.Link
-              href='#projects'
-              onClick={() => handleNavClick('Projects')}
-              className={currentPage === 'Projects' ? 'active-link' : ''}
-            >
+          </Nav.Item>
+          <Nav.Item>
+            <Nav.Link href='#projects' onClick={handleNavClick}>
               Projects
             </Nav.Link>
-          </li>
+          </Nav.Item>
 
-          <li>
-            <Nav.Link
-              href='#education'
-              onClick={() => handleNavClick('Education')}
-              className={currentPage === 'Education' ? 'active-link' : ''}
-            >
+          <Nav.Item>
+            <Nav.Link href='#education' onClick={handleNavClick}>
               Education
             </Nav.Link>
-          </li>
-          <li>
-            <Nav.Link
-              href='#skills'
-              onClick={() => handleNavClick('Skills')}
-              className={currentPage === 'Skills' ? 'active-link' : ''}
-            >
+          </Nav.Item>
+          <Nav.Item>
+            <Nav.Link href='#skills' onClick={handleNavClick}>
               Skills
             </Nav.Link>
-          </li>
-          <li>
-            <Nav.Link
-              href='#contact'
-              onClick={() => handleNavClick('Contact')}
-              className={currentPage === 'Contact' ? 'active-link' : ''}
-            >
+          </Nav.Item>
+          <Nav.Item>
+            <Nav.Link href='#contact' onClick={handleNavClick}>
               Contact
             </Nav.Link>
-          </li>
-          <li>
+          </Nav.Item>
+          <Nav.Item>
             <Nav.Link
-              as="a"
-              href="https://raw.githubusercontent.com/TurboTeam335/dm-portfolio/76c43e8bb892d542dd4c7677e0f24ab4a4dd4636/Daniel%20Mascali%20JrDev%20Resume%20.pdf"
+              as='a'
+              href='https://raw.githubusercontent.com/TurboTeam335/dm-portfolio/76c43e8bb892d542dd4c7677e0f24ab4a4dd4636/Daniel%20Mascali%20JrDev%20Resume%20.pdf'
               download
-              target="_blank"
-              rel="noopener noreferrer"
+              target='_blank'
+              rel='noopener noreferrer'
               className={currentPage === 'Resume' ? 'active-link' : ''}
               onClick={() => handleNavClick('Resume')}
             >
               Resume
             </Nav.Link>
-          </li>
+          </Nav.Item>
           <li>
             <ToggleSwitch />
           </li>
-        </ul>
+        </Nav>
       </Navbar.Collapse>
     </Navbar>
   );

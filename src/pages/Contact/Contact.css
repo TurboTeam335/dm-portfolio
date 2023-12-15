@@ -3,6 +3,7 @@ contact {
   margin-bottom: auto;
   background-color: var(--background);
   text-align: center;
+  
 }
 
 contact div a {
@@ -13,7 +14,10 @@ contact div a img {
   height: 50px;
   width: 50px;
 }
-
+.contact {
+  padding-top: 10vh; 
+  padding-bottom: 20vh; 
+}
 .contact-box {
   padding: 35px;
   margin: auto;

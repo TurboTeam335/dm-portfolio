@@ -1,7 +1,13 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useContext } from 'react';
 import './style.css';
 import Footer from './components/Footer/Footer';
-import PortfolioContainer from './components/PortfolioContainer/PortfolioContainer';
+import Navbar from './components/Navbar/Navbar';
+import About from './pages/About/About';
+import Projects from './pages/Projects/Projects';
+import Skills from './pages/Skills/Skills';
+import Education from './pages/Education/Education';
+import Contact from './pages/Contact/Contact';
+import Home from './pages/Home/Home'
 import ThemeContext from './components/ThemeContext/ThemeContext';
 
 function App() {
@@ -19,9 +25,15 @@ function App() {
   };
 
   return (
-    <ThemeContext.Provider value={{isDark, toggleTheme}}>
+    <ThemeContext.Provider value={{ isDark, toggleTheme }}>
       <div className={`App ${isDark ? 'dark' : 'light'}`}>
-        <PortfolioContainer />
+        <Navbar />
+        <div id="home" className="section-anchor"><Home /></div>
+        <div id="about" className="section-anchor"><About /></div>
+        <div id="projects" className="section-anchor"><Projects /></div>
+        <div id="education" className="section-anchor"><Education /></div>
+        <div id="skills" className="section-anchor"><Skills /></div>
+        <div id="contact" className="section-anchor"><Contact /></div>
         <Footer />
       </div>
     </ThemeContext.Provider>

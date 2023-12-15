@@ -11,7 +11,7 @@ import ThemeContext from '../../components/ThemeContext/ThemeContext';
 function Contact() {
   const { isDark } = useContext(ThemeContext);
   return (
-    <Container className='py-4'>
+    <Container className='py-4 '>
       <h2>Contact</h2>
       <div className='contact-box'>
         <a href='https://github.com/TurboTeam335' target='_blank' rel='noreferrer'>
