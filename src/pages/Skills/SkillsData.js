@@ -10,11 +10,13 @@ import php from './img/php.png';
 import wordpress from './img/wordpress2.png';
 import python from './img/python.png';
 import figma from './img/figma.png';
+import TS from '../Projects/img/typescript.png'
 
 export const skills = [
   { name: 'HTML', logo: htmlLogo, level: 90 },
   { name: 'CSS', logo: cssLogo, level: 90 },
   { name: 'JavaScript', logo: jsLogo, level: 80 },
+  { name: 'TypeScript', logo: TS, level: 80 },
   { name: 'React', logo: reactLogo, level: 85 },
   { name: 'Python', logo: python, level: 55 },
   { name: 'WordPress', logo: wordpress, level: 50 },
