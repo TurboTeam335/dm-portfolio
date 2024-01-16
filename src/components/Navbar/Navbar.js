@@ -78,7 +78,8 @@ function NavBar({ currentPage, handlePageChange }) {
           <Nav.Item>
             <Nav.Link
               as='a'
-              href='https://github.com/TurboTeam335/dm-portfolio/blob/135134014fbd5c3630473552bce37c4d07347c4c/Daniel%20Mascali%202024%20WebDev%20Resume.pdf'
+              href='https://raw.githubusercontent.com/TurboTeam335/dm-portfolio/4270909753c7d438ce3ec88abdf01ad3dde24cbf/Daniel%20Mascali%20%202023%20JrDev%20Resume.pdf'
+              href='https://raw.githubusercontent.com/TurboTeam335/dm-portfolio/135134014fbd5c3630473552bce37c4d07347c4c/Daniel%20Mascali%202024%20WebDev%20Resume.pdf'
               download
               target='_blank'
               rel='noopener noreferrer'
