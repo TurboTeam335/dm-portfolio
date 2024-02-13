@@ -3,7 +3,7 @@
 ## Description
 This is a personal portfolio website developed using React.js. The portfolio showcases my latest work, provides an overview about myself, and offers a convenient way for visitors to contact me. The portfolio is fully responsive and optimized for a variety of screen sizes.
 
-![Portfolio Preview](./portfolio/src/assets/img/portfolio-img3.png)  
+![Portfolio Preview](./src/assets/img/portfolio-img3.png)  
 
 ## Table of Contents
 - [Features](#features)
