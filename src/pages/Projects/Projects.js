@@ -1,6 +1,7 @@
 import React from 'react';
 import { Card, Button, Container } from 'react-bootstrap';
 import projectData from './ProjectData';
+import OpenSource from './OpenSource';
 import './Projects.css';
 
 function Projects() {
@@ -41,6 +42,7 @@ function Projects() {
           </div>
         </Card>
       ))}
+      <OpenSource />
     </Container>
   );
 }

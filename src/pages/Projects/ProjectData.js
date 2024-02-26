@@ -51,14 +51,14 @@ const projectData = [
     // link: "https://github.com/EFP18/AppointMe",
   //   deployedLink: "https://appointme-deploy-73ae09842608.herokuapp.com/"
   // },
-  {
-    title: "SMIRK: Stock Market Insights & Ridiculous Knowledge",
-    image: smirk,
-    description: "SMIRK is a comprehensive stock analysis tool designed to empower investors with real-time data and insights. Leveraging an advanced stock exchange API, the application presents users with up-to-the-minute market trends, facilitating informed investment decisions. This project showcases my proficiency in using third-party APIs and creating user-friendly interfaces that handle a wide array of data.",
-    link: "https://github.com/TurboTeam335/smirk",
-    deployedLink: "https://turboteam335.github.io/smirk/",
-    technologies: [react, Bootstrap],
-  },
+  // {
+  //   title: "SMIRK: Stock Market Insights & Ridiculous Knowledge",
+  //   image: smirk,
+  //   description: "SMIRK is a comprehensive stock analysis tool designed to empower investors with real-time data and insights. Leveraging an advanced stock exchange API, the application presents users with up-to-the-minute market trends, facilitating informed investment decisions. This project showcases my proficiency in using third-party APIs and creating user-friendly interfaces that handle a wide array of data.",
+  //   link: "https://github.com/TurboTeam335/smirk",
+  //   deployedLink: "https://turboteam335.github.io/smirk/",
+  //   technologies: [react, Bootstrap],
+  // },
   // {
   //   title: "BookEnds",
   //   image: bookends,
