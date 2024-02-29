@@ -1,0 +1,75 @@
+.quote-card {
+  max-width: 66%;
+  margin: 2em auto;
+  padding: 1em;
+}
+
+.quote-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.quote-text {
+  margin-bottom: 1em;
+  font-size: 22px !important;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 200;
+  font-style: normal;
+
+}
+
+.quote-button {
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 0.5em 1em;
+}
+
+.button-text-content {
+  display: inline-block;
+}
+
+.button-text-name {
+  font-size: 22px !important;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: var(--purple);
+
+  &:active {
+    color: var(--orange);
+  }
+
+  &:active::after {
+    background-color: var(--orange);
+  }
+}
+
+.button-text-role {
+  display: block;
+  font-size: smaller;
+  color: var(--purple);
+
+  &:active {
+    color: var(--orange);
+  }
+
+  &:active::after {
+    background-color: var(--orange);
+  }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .quote-card {
+    max-width: 75%;
+  }
+  .quote-text {
+    font-size: 18px;
+  }
+
+  .quote-button {
+    font-size: 18px !important;
+  }
+}

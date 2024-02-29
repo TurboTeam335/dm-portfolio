@@ -1,4 +1,3 @@
-// Import images at the top
 import smirk from "./img/smirk2.png";
 import blueCactus from './img/bluecactus.png';
 import weatherHub from './img/weatherHub.png';

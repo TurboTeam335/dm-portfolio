@@ -76,11 +76,11 @@
   }
 
   &:active {
-    color: var(--orange);
+    color: var(--orange) ;
   }
 
   &:active::after {
-    background-color: var(--orange);
+    background-color: none;
   }
 }
 

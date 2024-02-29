@@ -2,6 +2,7 @@ import React from 'react';
 import { Card, Button, Container } from 'react-bootstrap';
 import projectData from './ProjectData';
 import OpenSource from './OpenSource';
+import Quotes from '../../components/Quotes/Quotes';
 import './Projects.css';
 
 function Projects() {
@@ -43,6 +44,7 @@ function Projects() {
         </Card>
       ))}
       <OpenSource />
+      <Quotes quoteIndex={1} />
     </Container>
   );
 }
