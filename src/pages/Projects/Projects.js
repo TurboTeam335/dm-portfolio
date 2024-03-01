@@ -44,7 +44,7 @@ function Projects() {
         </Card>
       ))}
       <OpenSource />
-      <Quotes quoteIndex={1} />
+      {/* <Quotes quoteIndex={1} /> */}
     </Container>
   );
 }

@@ -14,7 +14,7 @@ const quoteData = [
     quote:
       '"Daniel’s attention to detail, work ethic and collaborative nature help him to be a fantastic part of any team"',
     name: 'Evan Pierri',
-    role: 'Tour Manager',
+    role: 'Tour Manager - Carly Pearce',
     link: 'https://www.linkedin.com/in/evanpierri/',
   },
   {
@@ -26,7 +26,7 @@ const quoteData = [
   },
   {
     quote:
-      '"Daniel’s attention to detail, work ethic and collaborative nature help him to be a fantastic part of any team"',
+      '"Daniel Mascali was the most professional employee that I had in my time in North Carolina. He was always prepared when it was time to work and his readiness pushed others to step up their preparation as well. He was never afraid to lead by example and I wish I could have him back."',
     name: 'Benton James',
     role: 'CEO - icons + giants',
     link: 'https://www.linkedin.com/in/bentonjames/',

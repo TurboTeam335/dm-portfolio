@@ -7,6 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function About() {
   return (
     <Container id='about' className='py-4 about'>
+
       <Row>
         <Col sm={8}>
           <h2>About</h2>
@@ -40,7 +41,7 @@ function About() {
           </div>
         </Col>
       </Row>
-      <Quotes quoteIndex={0} />
+ 
     </Container>
   );
 }
