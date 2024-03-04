@@ -30,13 +30,15 @@ function App() {
       <div className={`App ${isDark ? 'dark' : 'light'}`}>
         <Navbar />
         <div id="home" className="section-anchor"><Home /></div>
-        <Quotes quoteIndex={3} />
+        <Quotes quoteIndex={5} />
         <div id="about" className="section-anchor"><About /></div>
         <Quotes quoteIndex={0} />
         <div id="projects" className="section-anchor"><Projects /></div>
-        <Quotes quoteIndex={1} />
+        <Quotes quoteIndex={3} />
         <div id="education" className="section-anchor"><Education /></div>
+        <Quotes quoteIndex={1} />
         <div id="skills" className="section-anchor"><Skills /></div>
+        {/* <Quotes quoteIndex={1} /> */}
         <div id="contact" className="section-anchor"><Contact /></div>
         <Footer />
       </div>

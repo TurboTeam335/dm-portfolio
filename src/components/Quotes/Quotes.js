@@ -40,10 +40,10 @@ const quoteData = [
   },
   {
     quote:
-      '"Daniel’s attention to detail, work ethic and collaborative nature help him to be a fantastic part of any team"',
+      '"Every once in a while you come across an individual who brings a reliability to your team that is unmatched. Daniel Mascali is the very embodiment of that. Daniel has worked alongside of me in an enormous amount of capacities for several years; and always delivered more than what was asked. He has learned and perfected multiple different skill sets making him a value that has kept him in demand across the entertainment industry. To say Daniel is one of a kind is an understatement; I’ve yet to meet or work with anybody who has brought the type of reliability that Daniel brings."',
     name: 'Mark Siegel',
     role: 'Song Writer / Tour Manager',
-    link: 'https://www.linkedin.com/in/mark-siegel-24a52928/',
+    link: 'https://www.marksiegelofficial.com/',
   },
 ];
 
