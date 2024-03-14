@@ -1,7 +1,7 @@
 import React from 'react';
 import { Card, Button, Container } from 'react-bootstrap';
-import './Projects.css';
-import react from '../Skills/img/react.png';
+import '../Projects.css';
+import react from '../../Skills/img/react.png';
 
 const openSourceData = [
   {

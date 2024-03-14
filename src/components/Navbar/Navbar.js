@@ -1,9 +1,10 @@
 import React, { useContext, useState } from 'react';
-import { Navbar, Nav } from 'react-bootstrap';
+import { Navbar, Nav, Dropdown } from 'react-bootstrap';
 import './Navbar.css';
 import ToggleSwitch from '../ToggleSwitch/ToggleSwitch';
 import ThemeContext from '../ThemeContext/ThemeContext';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import lightHam from './img/hamburger-light.png';
 import darkHam from './img/hamburger dark.png';
@@ -32,7 +33,7 @@ function NavBar({ currentPage, handlePageChange }) {
       expand='lg'
       sticky='top'
       expanded={navExpanded}
-  onToggle={() => setNavExpanded(!navExpanded)}
+      onToggle={() => setNavExpanded(!navExpanded)}
     >
       <Navbar.Brand>
         <a href='#home' className='navbar-brand-link'>
@@ -43,8 +44,10 @@ function NavBar({ currentPage, handlePageChange }) {
       </Navbar.Brand>
 
       <Navbar.Toggle aria-controls='basic-navbar-nav'>
-      <img src={togglerIcon} alt={navExpanded ? "Close navigation" : "Open navigation"} />
-
+        <img
+          src={togglerIcon}
+          alt={navExpanded ? 'Close navigation' : 'Open navigation'}
+        />
       </Navbar.Toggle>
 
       <Navbar.Collapse id='basic-navbar-nav' className='navbar-collapse'>
@@ -54,11 +57,24 @@ function NavBar({ currentPage, handlePageChange }) {
               About
             </Nav.Link>
           </Nav.Item>
-          <Nav.Item>
-            <Nav.Link href='#projects' onClick={handleNavClick}>
-              Projects
-            </Nav.Link>
-          </Nav.Item>
+          <Dropdown>
+            <Dropdown.Toggle
+              variant='success'
+              id='dropdown-basic'
+              className='dropdown-toggle'
+            >
+              Projects <FontAwesomeIcon icon={faChevronDown} className="dropdown-chevron" size="sm" />
+            </Dropdown.Toggle>
+
+            <Dropdown.Menu className='custom-dropdown-menu'>
+              <Dropdown.Item href='#projects' className='custom-dropdown-item'>
+                Development
+              </Dropdown.Item>
+              <Dropdown.Item href='#uiux' className='custom-dropdown-item'>
+                UI/UX Design
+              </Dropdown.Item>
+            </Dropdown.Menu>
+          </Dropdown>
 
           <Nav.Item>
             <Nav.Link href='#education' onClick={handleNavClick}>

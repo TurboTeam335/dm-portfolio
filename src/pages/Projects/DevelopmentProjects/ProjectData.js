@@ -1,14 +1,14 @@
-import smirk from "./img/smirk2.png";
-import blueCactus from './img/bluecactus.png';
-import weatherHub from './img/weatherHub.png';
-import sortstream from './img/SortStream2.png'
-import quote from './img/quote.png';
-import react from '../Skills/img/react.png';
-import Python from '../Skills/img/python.png';
-import MUI from './img/mui.png';
-import Bootstrap from './img/bootstrap.png';
-import TS from './img/typescript.png'
-import SQL from './img/sql.png'
+import smirk from "../img/smirk2.png";
+import blueCactus from '../img/bluecactus.png';
+import weatherHub from '../img/weatherHub.png';
+import sortstream from '../img/SortStream2.png'
+import quote from '../img/quote.png';
+import react from '../../Skills/img/react.png';
+import Python from '../../Skills/img/python.png';
+import MUI from '../img/mui.png';
+import Bootstrap from '../img/bootstrap.png';
+import TS from '../img/typescript.png'
+import SQL from '../img/sql.png'
 
 const projectData = [
   {

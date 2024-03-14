@@ -10,11 +10,10 @@
 }
 
 .navbar-toggler img {
-  width: 30px; 
+  width: 30px;
   height: auto;
-margin-bottom: 5px;
+  margin-bottom: 5px;
 }
-
 
 .navbar {
   background-color: var(--background);
@@ -48,7 +47,7 @@ margin-bottom: 5px;
 }
 
 .nav-list li {
-  margin-left: 10px;
+  /* margin-left: 10px; */
 }
 
 .nav-list li:last-child {
@@ -93,6 +92,65 @@ margin-bottom: 5px;
 .navbar-brand-link {
   text-decoration: none;
   color: inherit;
+}
+
+.dropdown-toggle {
+  color: var(--purple) !important;
+  background-color: transparent !important;
+  border: none !important;
+  font-weight: bolder !important;
+  margin-top: 2px;
+  margin-right: -4px;
+}
+
+.dropdown-toggle:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+/* Remove or override styles on active */
+.dropdown-toggle::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0.5px;
+  bottom: -1px;
+  left: 0;
+  background-color: var(--orange) !important;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+.dropdown-toggle:hover {
+  color: var(--orange) !important;
+}
+.dropdown-toggle:hover::after {
+  visibility: visible;
+  width: 100%;
+  /* color: var(--orange) !important; */
+}
+.dropdown-chevron {
+  color: var(--purple);
+  background-color: transparent !important;
+  border: none !important;
+  font-weight: bolder !important;
+  margin-top: 2px;
+  margin-right: -4px;
+}
+
+.dropdown-menu {
+  background-color: var(--background) !important;
+  border: 1px solid var(--purple) !important;
+}
+
+.dropdown-menu .dropdown-item {
+  color: var(--purple) !important;
+  font-weight: bolder;
+}
+
+.dropdown-menu .dropdown-item:hover,
+.dropdown-menu .dropdown-item:focus {
+  background-color: transparent;
+  color: var(--orange) !important;
 }
 
 @media (max-width: 992px) {
