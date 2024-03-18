@@ -44,6 +44,7 @@ function App() {
         <div id='development' className='section-anchor'>
           <DevelopmentProjects />
         </div>
+        <Quotes quoteIndex={6} />
         <div id='uiux' className='section-anchor'>
           <UIUXProjects />
         </div>

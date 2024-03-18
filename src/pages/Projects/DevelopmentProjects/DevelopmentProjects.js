@@ -7,7 +7,7 @@ import '../Projects.css';
 function DevelopmentProjects() {
   return (
     <Container className='py-4'>
-      <h2>Development</h2>
+      <h3>Development</h3>
       {projectData.map((project, index) => (
         <Card className={`my-3 horizontal-card ${index % 2 === 0 ? 'even-project' : 'odd-project'}`} key={index}>
           <div className={`d-flex flex-column flex-md-row ${index % 2 === 0 ? 'flex-md-row-reverse' : ''}`}>

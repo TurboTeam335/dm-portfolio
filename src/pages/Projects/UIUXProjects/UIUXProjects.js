@@ -1,13 +1,14 @@
 import React from 'react';
 import { Card, Button, Container } from 'react-bootstrap';
 import uiuxProjectData from './UIUXProjectData'; 
+import '../Projects.css';
 
 function UIUXProjects() {
   return (
     <Container className='py-4'>
-      <h2>UI/UX Design Projects</h2>
+      <h3>UI/UX Design Projects</h3>
       {uiuxProjectData.map((project, index) => (
-        <Card className={`my-3 ${index % 2 === 0 ? 'even-uiux' : 'odd-uiux'}`} key={index}>
+        <Card className={`my-3 horizontal-card ${index % 2 === 0 ? 'even-uiux' : 'odd-uiux'}`} key={index}>
           <div className='d-flex flex-column flex-md-row'>
             <div className='image-container'>
               <Card.Img className='project-img' src={project.image} />

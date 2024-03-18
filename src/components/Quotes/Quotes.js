@@ -40,10 +40,17 @@ const quoteData = [
   },
   {
     quote:
-      '"Every once in a while you come across an individual who brings a reliability to your team that is unmatched. Daniel Mascali is the very embodiment of that. Daniel has worked alongside of me in an enormous amount of capacities for several years; and always delivered more than what was asked. He has learned and perfected multiple different skill sets making him a value that has kept him in demand across the entertainment industry. To say Daniel is one of a kind is an understatement; I’ve yet to meet or work with anybody who has brought the type of reliability that Daniel brings."',
+      '"Daniel is an exemplary employee. In his position he displayed focus and attention to detail while working both independently and in team settings. He took it upon himself to express a willingness to grow his responsibilities over time bringing the same quality of work to each new task. As his supervisor, I found him collaborative and pointed in executing any assigned objectives. I would highly recommend Daniel as a valuable team member who can be counted on to succeed not just for himself but the project at large."',
     name: 'Mark Siegel',
     role: 'Song Writer / Tour Manager',
     link: 'https://www.marksiegelofficial.com/',
+  },
+  {
+    quote:
+      '"Every once in a while you come across an individual who brings a reliability to your team that is unmatched. Daniel Mascali is the very embodiment of that. Daniel has worked alongside of me in an enormous amount of capacities for several years; and always delivered more than what was asked. He has learned and perfected multiple different skill sets making him a value that has kept him in demand across the entertainment industry. To say Daniel is one of a kind is an understatement; I’ve yet to meet or work with anybody who has brought the type of reliability that Daniel brings."',
+    name: 'Adam Groeninger',
+    role: 'Production Manager - Dierks Bentley',
+    link: 'mailto:adamgroeninger@gmail.com',
   },
 ];
 
@@ -53,7 +60,11 @@ function Quotes({ quoteIndex }) {
   const { quote, name, link, role } = quoteItem;
 
   const handleButtonClick = () => {
-    window.open(link, '_blank');
+    if (link.startsWith('mailto:')) {
+      window.location.href = link;
+    } else {
+      window.open(link, '_blank');
+    }
   };
 
   return (

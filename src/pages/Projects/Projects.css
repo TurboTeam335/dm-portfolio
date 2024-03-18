@@ -1,3 +1,7 @@
+h3 {
+  padding-left: 16px;
+}
+
 .card {
   background-color: var(--background);
 }
@@ -41,7 +45,7 @@
   margin-top: 10px;
 }
 
-.btn-proj {
+.btn-proj, .btn-uiux{
   color: var(--purple);
   font-weight: bolder;
   position: relative;

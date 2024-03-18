@@ -1,11 +1,9 @@
 import React, { useContext, useState } from 'react';
+import { Link } from 'react-router-dom';
 import { Navbar, Nav, Dropdown } from 'react-bootstrap';
 import './Navbar.css';
 import ToggleSwitch from '../ToggleSwitch/ToggleSwitch';
 import ThemeContext from '../ThemeContext/ThemeContext';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
-import { faBars } from '@fortawesome/free-solid-svg-icons';
 import lightHam from './img/hamburger-light.png';
 import darkHam from './img/hamburger dark.png';
 import lightX from './img/x-light.png';
@@ -35,7 +33,7 @@ function NavBar({ currentPage, handlePageChange }) {
       expanded={navExpanded}
       onToggle={() => setNavExpanded(!navExpanded)}
     >
-      <Navbar.Brand>
+      <Navbar.Brand as={Link} to='/'>
         <a href='#home' className='navbar-brand-link'>
           <div className='d-flex align-items-center'>
             <h1 className='brand-name'>&lt; Daniel Mascali /&gt;</h1>
@@ -53,7 +51,7 @@ function NavBar({ currentPage, handlePageChange }) {
       <Navbar.Collapse id='basic-navbar-nav' className='navbar-collapse'>
         <Nav className='ml-auto nav nav-list'>
           <Nav.Item>
-            <Nav.Link href='#about' onClick={handleNavClick}>
+            <Nav.Link href='/#about' onClick={handleNavClick}>
               About
             </Nav.Link>
           </Nav.Item>
@@ -63,31 +61,31 @@ function NavBar({ currentPage, handlePageChange }) {
               id='dropdown-basic'
               className='dropdown-toggle'
             >
-              Projects <FontAwesomeIcon icon={faChevronDown} className="dropdown-chevron" size="sm" />
+              Projects
             </Dropdown.Toggle>
 
-            <Dropdown.Menu className='custom-dropdown-menu'>
-              <Dropdown.Item href='#projects' className='custom-dropdown-item'>
+            <Dropdown.Menu className='dropdown-menu'>
+              <Dropdown.Item href='/#projects' className='dropdown-item'>
                 Development
               </Dropdown.Item>
-              <Dropdown.Item href='#uiux' className='custom-dropdown-item'>
+              <Dropdown.Item href='/#uiux' className='dropdown-item'>
                 UI/UX Design
               </Dropdown.Item>
             </Dropdown.Menu>
           </Dropdown>
 
           <Nav.Item>
-            <Nav.Link href='#education' onClick={handleNavClick}>
+            <Nav.Link href='/#education' onClick={handleNavClick}>
               Education
             </Nav.Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link href='#skills' onClick={handleNavClick}>
+            <Nav.Link href='/#skills' onClick={handleNavClick}>
               Skills
             </Nav.Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link href='#contact' onClick={handleNavClick}>
+            <Nav.Link href='/#contact' onClick={handleNavClick}>
               Contact
             </Nav.Link>
           </Nav.Item>
