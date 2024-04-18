@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.64141072.css",
-    "main.js": "./static/js/main.22c035f6.js",
+    "main.js": "./static/js/main.def81317.js",
     "static/js/787.a2cb61a6.chunk.js": "./static/js/787.a2cb61a6.chunk.js",
     "static/media/TruckerSay.png": "./static/media/TruckerSay.104005fd04409b762b20.png",
     "static/media/bluecactus.png": "./static/media/bluecactus.4a9b6262483a233e5dab.png",
@@ -12,6 +12,7 @@
     "static/media/php.png": "./static/media/php.aa680f57bf75b5d5acdc.png",
     "static/media/quote.png": "./static/media/quote.ddeeb76500182aff38bd.png",
     "static/media/uncg.png": "./static/media/uncg.17948dfa502d36369f3c.png",
+    "static/media/googleUI.png": "./static/media/googleUI.e1464270e5c83a27dea7.png",
     "static/media/googleAssistantLogo.webp": "./static/media/googleAssistantLogo.f720c71652579588524a.webp",
     "static/media/coursera.png": "./static/media/coursera.a1351c28bb0fc4ca62ad.png",
     "static/media/vanderbilt.webp": "./static/media/vanderbilt.f046a9fa0f7815acefa8.webp",
@@ -21,11 +22,11 @@
     "static/media/slick.woff": "./static/media/slick.295183786cd8a1389865.woff",
     "index.html": "./index.html",
     "main.64141072.css.map": "./static/css/main.64141072.css.map",
-    "main.22c035f6.js.map": "./static/js/main.22c035f6.js.map",
+    "main.def81317.js.map": "./static/js/main.def81317.js.map",
     "787.a2cb61a6.chunk.js.map": "./static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.64141072.css",
-    "static/js/main.22c035f6.js"
+    "static/js/main.def81317.js"
   ]
 }
