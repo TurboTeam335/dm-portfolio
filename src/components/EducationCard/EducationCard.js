@@ -5,6 +5,7 @@ import googleCloudLogo from './img/googleAssistantLogo.webp';
 import uncgLogo from './img/uncg.png';
 import coursera from './img/coursera.png';
 import udemy from './img/udemy.png';
+import googleUI from './img/googleUI.png'
 import './EducationCard.css';
 
 export const schoolInfo = [
@@ -13,30 +14,37 @@ export const schoolInfo = [
     logo: vanderbiltLogo,
     subHeader:
       'Intensive program, specializing in HTML5, CSS3, Javascript, ReactJS, and Node Js',
-    duration: '2023',
+    // duration: '2023',
   },
 
   {
     schoolName: 'University of North Carolina at Greensboro',
     logo: uncgLogo,
     subHeader: 'Bachelor of Music, Jazz Studies, Guitar Performance, cum laude',
-    duration: '2009',
+    // duration: '2009',
   },
 ];
 
 export const certification = [
   {
+    schoolName: 'Google UX Design Professional Certificate',
+    logo: googleUI,
+    subHeader: 'UX Design',
+    // duration: '2023',
+    url: 'https://www.credly.com/badges/b2768c24-4a55-4399-b0b9-8c1b73f6bcc4/linked_in_profile',
+  },
+  {
     schoolName: 'Google Cloud Skill Boost Course',
     logo: googleCloudLogo,
     subHeader: 'Generative AI',
-    duration: '2023',
+    // duration: '2023',
     url: 'https://www.cloudskillsboost.google/public_profiles/9215599e-7388-43e6-8cf2-346d775e53c6',
   },
   {
     schoolName: 'Coursera',
     logo: coursera,
     subHeader: 'Prompt Engineering for ChatGPT',
-    duration: '2023',
+    // duration: '2023',
     url: 'https://www.coursera.org/account/accomplishments/verify/9HSHSSNW4GEK',
   },
 ];
